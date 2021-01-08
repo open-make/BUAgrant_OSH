@@ -1,3 +1,5 @@
+ # BUA grant discussion
+ 
  # Problems to solve
  
  - researchers do not know how to document their hardware.
@@ -10,7 +12,7 @@
  
  Building on the [review system that is prototyped in the open next project](https://en.oho.wiki/wiki/Home), we will document existing hardware created in the academic labs (see http://www.neuro-airtrack.com/ for an example).
  
- We will provide a guide and template structures to help researchers to
+We will provide a guide and template structures to help researchers to prepare their hardware and its documentation for its peer review.
  
  ## WP2: Peer review infrastructure
  
