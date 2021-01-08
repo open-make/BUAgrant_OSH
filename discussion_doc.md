@@ -31,5 +31,13 @@
 The system will be compatible with the current publishing industry, in order to facilitate hardware citation.
 On the other hand, we will implement a contributor role taxonomy ([CREDIT or CRO](http://credit.niso.org/)), to report the role of each author in a computer readable form.
 
- 
+# Financial plan
+Start: ASAP, for 2 years
+
+40 T€: 1 TVL14 position 30 % for 2 years (HU: Julien Colomb), project coordination, cooperation with other partners
+145 T€: 1 TVL13 position 100% for 2 years (TU: TBA), hardware review system
+109 T€: 2 TVL13 position 50% for 1.5 years (TU: TBA), Hardware FAIRification
+11 T€: workshop,...
+
+
  
