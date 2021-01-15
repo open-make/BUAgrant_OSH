@@ -2,10 +2,10 @@
  
  # title: Towards open and FAIR hardware.
  
- # summary
+ # Summary
  
-We want to help researchers disseminate the hardware they are designing and get credit for that work, all this while reducing the time they need to invest in the process to a minimum, so they can focus on doing research. Setting up one's hardware is a common process in different research disciplines, even if this is rarely recognized as an important skill. However, there 
- is very few recommandation, certification or example for hardware documentation, which makes the transfer of knowledge difficult in the lab and between labs. 
+We want to help researchers disseminate the hardware they are designing and get credit for that work, and do it efficiently; so they can focus on doing research. Setting up one's hardware is a common process in different research disciplines, even if it is rarely recognized as an important skill. However, there 
+ is very few recommandation, certification or example for hardware documentation, which makes the transfer of knowledge difficult inside a lab and between labs. 
 We want to build on the open next project experience and upon advances in software and data management (for instance applying the FAIR principles) to design 
  better workflows in hardware engineering in academia.
  
@@ -24,10 +24,11 @@ We want to build on the open next project experience and upon advances in softwa
  
  ## WP1: analysis of existing workflow and infrastructures (line 2)
  
- - Suvey of researchers (cross domain) about their habits in production of hardware, pain point, existing solutions.
- (done via lime survey provided by the HU CMS)
- - Search and define specific hardware piece that were well dessiminated in their community (buridan paradigm in flies, airtrack system, and others), analyse the dessimination process.
- - resutls will be used to refine our plan, and look for adoption point of the developed workflow (below)
+ - Search and define specific hardware piece that were well dessiminated in their community (buridan paradigm, airtrack system, and others), analyse the dessimination process.****
+ - Design and run a Survey of researchers (cross domain) about their habits in production and dissemination of hardware, pain point, existing solutions.
+ (done via lime survey provided by the HU CMS). Analyse answers and run comlete response via direct interviews.
+ 
+ - Analyse resutls and refine our plan of WP2 and WP3 accordingly, especially look for a strategy to facilitate the adoption  of the developed workflow in the different communities.
  
  ##  WP2: Towards FAIR ~~and open source~~ hardware (line 1)
  
@@ -64,7 +65,7 @@ On the other hand, we will implement a contributor role taxonomy ([CREDIT or CRO
 
 ## WP3: Towards open source hardware (line 2)
   
-Bring open science practice into hardware creation projects:
+Bring open science practice into hardware creation and publication projects:
 
    - license prescription: Cooperations on licensing issues for FAIR and open source data sharing will also be explored with relevant initiatives such as the [CERN OHL from the Open Hardware Repository](https://ohwr.org/project/cernohl/wikis/Documents/CERN-OHL-version-2/).
    - additional information needed for open projects: guide for collaboration rules, code of conducts, ways to make it more inclusive. Build on mozilla, open life science, OSMOOC prescriptions. Also built on the results of WP1.
