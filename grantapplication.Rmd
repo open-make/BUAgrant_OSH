@@ -1,0 +1,109 @@
+---
+title: "Towards open and FAIR hardware"
+author: "24 months project starting in 06/2021"
+papersize: a4
+linestretch: 1.2
+fontsize: 12pt
+links-as-notes: true
+output:
+  pdf_document:
+    latex_engine: xelatex
+mainfont: Times New Roman  
+---
+
+
+# Principal investigators
+
+    - Prof. Matthew Larkum, Institute of Biology, Humboldt University of Berlin, Berlin, Germany. matthew.larkum@hu-berlin.de, +49 (0)30 450 539 152.
+    - TU
+    - Prof. Tim Landgraf, FU
+
+Name und Anschriften (einschließlich Telefon, Telefax und E-Mail) des bzw. der Projektleitenden an den Partnereinrichtungen; Unterschrift der Projektleitung
+
+
+
+# Beschreibung der Forschungsinhalte und weitere Erläuterungen
+
+## Kurzbeschreibung des Vorhabens unter Zuordnung zu einem in der Ausschreibung genannten The- menfeld, Darstellung der zentralen Fragestellung bzw. des Projektziels (maximal drei Seiten)
+
+### Introduction
+
+- Hardware in academia
+  - role of hardware
+  - hardware dissemination
+  - a career in (open source) hardware
+- Hardware documentation in open next
+  - DIN
+  - wiki review system
+- FAIR principles (relation to open data and open source hardware)
+
+### Project objectives
+
+- Guiding hardware documentation in academia
+- Prototype tooling for documenting and sharing hardware, with quality control
+- Define incentives, possibly independent of paper publication
+
+### Open science and quality control
+
+- line 1:
+    - quality control
+    - interdisciplinary
+    - evaluation tool
+    - new indicators
+    
+- line 2 open science: 
+    - analysis of current practices in hardware creation
+    - open practices in the dissemination of hardware documentation (license, publication)  
+    - prototyping tools to get independent from publishers (open infrastructure)
+
+
+## Einordnung des Vorhabens in den aktuellen internationalen Forschungsstand (maximal eine Seite)
+
+In this project, we will bring open data and open source software workflows into hardware, in collaboration with the GOSH.
+
+- relation to GOSH
+- relation to RDA, Force11, NFDI-neuro
+
+## Detailliertes Arbeitsprogramm einschließlich der geplanten Meilensteine, Ausführungen zum me- thodischen Vorgehen (einschließlich einer diesbezüglichen Risikoabschätzung), zur theoretischen Rahmung des Vorhabens sowie gegebenenfalls zum Feldzugang (maximal drei Seiten)
+
+- Report best and bad practices in hardware developement in academia.
+- Build a publication system for OSH, inculding a pioneering peer review system.
+- Teaching program for open source hardware
+
+## Angaben zu Verwertungsmöglichkeiten und -planungen; hierzu zählen Nutzungsmöglichkeiten der Ergebnisse in der wissenschaftlichen und nicht-wissenschaftlichen Öffentlichkeit (maximal zwei Sei- ten)
+
+## Darstellung der praxisrelevanten Forschungsergebnisse sowie Konzept der Implementierung (ma- ximal zwei Seiten)
+
+- Report: bad and best practices (blog post, publication in diamond open access)
+- Final report in a diamond open access journal
+- Publication platform prototype as open source software(s)
+- runnig platform in collaboratiom with one bibliothek
+
+## Konzept zur geplanten Kooperation mit den Projektpartnern, bspw. Beschreibung der Arbeits- bzw. Aufgabenverteilung, Angaben zum wechselseitigen Mehrwert (maximal eine Seite)
+
+HU: project coordination, data management, relation to international initiatives
+TU: creation/adaptation of review system
+HU: analysis of workflows
+FU: software dev.
+
+## Beschreibung der geplanten Maßnahmen zum Forschungsdatenmanagement und zur Publikations- strategie. Publikationen und Forschungsdaten sind kostenfrei zugänglich zu machen.
+
+Open science project ?
+
+The project will get its own website and blog platform. All intermediary reports will be made public with a CC-By license via this platform, as soon as possible.
+
+Research files will be organized using the GIN-Tonic application, raw (or anonimised) datasets will be made available with a CC0 license upon collection, or as soon as legally possible. Data will be curated, and its analysis will be preformed using reproducible reports, in order to facilitate re-use.
+
+Final reports will be made available under a CC-BY license, preferably using a diamond open access journal.
+
+## Sollen aus dem Forschungsvorhaben resultierende Ergebnisse als Beitrag in einer wissenschaftli- chen Zeitschrift veröffentlicht werden, so soll der Öffentlichkeit der unentgeltliche elektronische Zugriff (Open Access) auf den Beitrag möglich sein. Erscheint der Beitrag zunächst nicht in einer der Öffentlichkeit unentgeltlich elektronisch zugänglichen Zeitschrift, so soll der Beitrag – gegebenenfalls nach Ablauf einer angemessenen Frist (Embargofrist) – der Öffentlichkeit unentgeltlich elektronisch zugänglich gemacht werden (Zweitveröffentlichung). Im Fall der Zweitveröffentlichung soll die Em- bargofrist zwölf Monate nicht überschreiten.  
+
+...
+
+## Im Rahmen des Projekts sollen gewonnene Daten mit etwaiger Relevanz zur Nutzung durch Dritte nach Abschluss des Projekts in weitergabefähiger Form auf der Basis gängiger Standards einer geeig- neten Einrichtung/einem Forschungsdatenzentrum zur Verfügung gestellt werden. Ziel ist, die lang- fristige Datensicherung, Sekundärauswertungen oder eine Nachnutzung zu ermöglichen. Gängige Anforderungen an das Forschungsdatenmanagement sind zu berücksichtigen.
+
+...
+
+## Anhang: Kurze CV der beteiligten Projektleitungen, Publikationsliste mit maximal fünf themenbezo- genen Publikationen der letzten fünf Jahre je Projektleitendem, Angaben zu einschlägigen For- schungsprojekten bzw. laufenden Drittmittelvorhaben mit Titel, Förderer und Umfang, gegebenen- falls Unterstützungsschreiben / LoI der kooperierenden Partnerinstitutionen (maximal fünf Seiten).
+
+Insgesamt sollte der Projektantrag zwölf Seiten nicht überschreiten (ohne Finanzierungsplan und Anhang).
