@@ -15,7 +15,7 @@ mainfont: Times New Roman
 # Principal investigators
 
     - Prof. Matthew Larkum, Institute of Biology, Humboldt University of Berlin, Berlin, Germany. matthew.larkum@hu-berlin.de, +49 (0)30 450 539 152.
-    - TU
+    - Prof. Dr.-Ing. Roland Jochem, Chair of Quality Sciencce, Institute for Machine Tools and Factory Management, Technische Universität Berlin, Berlin, Germany. roland.jochem@tu-berlin.de, +49 30 314 22005.
     - Prof. Tim Landgraf, FU
 
 Name und Anschriften (einschließlich Telefon, Telefax und E-Mail) des bzw. der Projektleitenden an den Partnereinrichtungen; Unterschrift der Projektleitung
@@ -24,7 +24,7 @@ Name und Anschriften (einschließlich Telefon, Telefax und E-Mail) des bzw. der 
 
 # Beschreibung der Forschungsinhalte und weitere Erläuterungen
 
-## Kurzbeschreibung des Vorhabens unter Zuordnung zu einem in der Ausschreibung genannten The- menfeld, Darstellung der zentralen Fragestellung bzw. des Projektziels (maximal drei Seiten)
+## Kurzbeschreibung des Vorhabens unter Zuordnung zu einem in der Ausschreibung genannten Themenfeld, Darstellung der zentralen Fragestellung bzw. des Projektziels (maximal drei Seiten)
 
 ### Introduction
 
@@ -39,9 +39,9 @@ Name und Anschriften (einschließlich Telefon, Telefax und E-Mail) des bzw. der 
 
 ### Project objectives
 
-- Guiding hardware documentation in academia
-- Prototype tooling for documenting and sharing hardware, with quality control
-- Define incentives, possibly independent of paper publication
+- Evaluating and guiding hardware documentation in academia
+- Prototype tooling for evaluating of hardware documentation and sharing hardware to increase the quality of hardware research
+- Create new incentive and , independent of paper publication
 
 ### Open science and quality control
 
