@@ -32,7 +32,25 @@ We want to build on the open next project experience and upon advances in softwa
  
  ##  WP2: Towards FAIR ~~and open source~~ hardware (line 1)
  
-### review system (IR)
+### introduction
+
+We want to build a publication system for hardware. We will build a novel and specific approach for certification, while building on data and software "publication" system to ensure the production of open FAIR hardware. Indeed Registration and Archiving of hardware can follow the FAIR principles that are implemented for data, while we will build on the advances in software publication to drive Awareness and Rewarding functions of publication. 
+
+>A publication system aims: 
+>- Registration 	...create a record of the works
+>- Certification 	...have a way to judge the work’s quality
+>- Awareness 	...make people aware of the work
+>- Archiving 	...store the works for a long period of time
+>- Rewarding 	...incentivize the production of scholarly work
+
+ FAIR principles
+
+- Findable: it has enough metadata to be indexed
+- Accessible: a url/doi is enough to download the content, if one has rights to access it.
+- Interoperable: it can used in combination with other hardware
+- Reusable: the legallity and condition of its reuse is clearly stated
+ 
+### Certification and peer review
 
 Building on the [review system that is prototyped in the open next project](https://en.oho.wiki/wiki/Home), we will demonstrate how to review technical documentaion of FAIR and open source hardware created in the academic labs  or as prototypes in publicly funded research projects (using specific hardware defined in WP1).
  
@@ -41,6 +59,8 @@ We will optimise the underlying review process and provide a guide and "standard
 We will define different level of certification, in order to lower the barrier for researchers to use that system.  
 
 ### Publication system (FA)
+
+
 
  While the peer review can be used without or prior to the publication of the hardware,
  we will provide a way for researchers to publish their work as non-traditional research outputs.
