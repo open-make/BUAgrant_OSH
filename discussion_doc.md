@@ -32,9 +32,10 @@ We want to build on the open next project experience and upon advances in softwa
  
  ##  WP2: Towards FAIR ~~and open source~~ hardware (line 1)
  
-### introduction
+### Introduction
 
-We want to build a publication system for hardware. We will build a novel and specific approach for certification, while building on data and software "publication" system to ensure the production of open FAIR hardware. Indeed Registration and Archiving of hardware can follow the FAIR principles that are implemented for data, while we will build on the advances in software publication to drive Awareness and Rewarding functions of publication. 
+We want to propose a publication system for hardware. Our work will essentially be to create a novel and specific approach for academic hardware certification. On the other hand, we will build on the FAIR principles developed for data and on the software citation group outputs to integrate the certification system into an hardware publication system. We will Register and Archive the hardware documentation using workflows who have been used for software and data, while Awareness and rewards will be achieved using specific metadata schemes and indicating contribution roles in author lists. 
+
 
 >A publication system aims: 
 >- Registration 	...create a record of the works
@@ -52,25 +53,36 @@ We want to build a publication system for hardware. We will build a novel and sp
  
 ### Certification and peer review
 
+#### Build the certification
+
 Building on the [review system that is prototyped in the open next project](https://en.oho.wiki/wiki/Home), we will demonstrate how to review technical documentaion of FAIR and open source hardware created in the academic labs  or as prototypes in publicly funded research projects (using specific hardware defined in WP1).
+
+
+
+We will define different level of certification, in order to lower the barrier for researchers to use that system. We will consider the creation of a badging system, that could be automatically added to the hardware documentation online.  NB:Interoperability of the hardware is part of the certification process and could be one specific certification level.
  
+#### help reseacher document their hardware for the certification 
+
 We will optimise the underlying review process and provide a guide and "standardised research hardware folder structure" (See GIN-Tonic project for data) to help researchers to prepare their hardware and its documentation for its peer review.
 
-We will define different level of certification, in order to lower the barrier for researchers to use that system.  
-
-### Publication system (FA)
 
 
 
- While the peer review can be used without or prior to the publication of the hardware,
- we will provide a way for researchers to publish their work as non-traditional research outputs.
+### FAIR hardware
+
  We will consider both the production of a DOI for a snapshot of the repository (via Zenodo, Dspace or GIN), 
- or the production of a paper similar to what JOSS is doing, or via a OJS system, as is developed in the [modern publishing project in Hamburg](https://oa-pub.hos.tuhh.de/en/).
+ or the production of a paper similar to what JOSS is doing, or via a OJS system, as is developed in the [modern publishing project in Hamburg](https://oa-pub.hos.tuhh.de/en/). We will also consider the use of RRID as a PID, in order to facilitate hardware citation in the material and method section of a paper.
+ 
+ In both approach specific metadata schema will be used to label these digital object as hardware documentation. We will work in collaboration with datacite to allow this (?).
+ 
+  - license prescription: Cooperations on licensing issues for FAIR and open source data sharing will also be explored with relevant initiatives such as the [CERN OHL from the Open Hardware Repository](https://ohwr.org/project/cernohl/wikis/Documents/CERN-OHL-version-2/).
 
-(Recognition and incentives):
+### Recognition and incentives:
 
-The system will be compatible with but different from the current publishing industry, in order to facilitate hardware citation, but avoiding unnecessary costs and a strengthening of the publish or perish paradigm.
-On the other hand, we will implement a contributor role taxonomy ([CREDIT or CRO](http://credit.niso.org/)), to report the role of each author in a computer readable form, allowing for more specific recognition of hardware building and sharing skills.
+In accordance with advances in software citation, we will prone the citation of the hardware itself, and not of a paper presenting it. This will make possible the creation of metrics specific to hardware citation. 
+
+
+On the other hand, we will implement a contributor role taxonomy specific for hardware, in collaboration with CRO, the extension of the ([CREDIT](http://credit.niso.org/) taxonomy), to report the role of each author in a computer readable form, allowing for more specific recognition of hardware building and sharing skills.
  
 ### Prototyping the integration of hardware review in the publication system(s)
 
@@ -80,33 +92,53 @@ On the other hand, we will implement a contributor role taxonomy ([CREDIT or CRO
  (2) a Gitlab infrastructure,
  (3) a GIN-like infrastructure (https://gin.g-node.org/).
  
- The three tools use a similar wiki system, that would be compatible with the existing prototype.
+ The three tools use a similar wiki system, that would be compatible with the existing certification prototype. 
+ Badging system are also common in these platforms.
  The development or application of a bot similar to the weadon bot used at JOSS or the Tonic bot used with GIN and gitlab will be created.
 
 ## WP3: Towards open source hardware (line 2)
   
 Bring open science practice into hardware creation and publication projects:
 
-   - license prescription: Cooperations on licensing issues for FAIR and open source data sharing will also be explored with relevant initiatives such as the [CERN OHL from the Open Hardware Repository](https://ohwr.org/project/cernohl/wikis/Documents/CERN-OHL-version-2/).
-   - additional information needed for open projects: guide for collaboration rules, code of conducts, ways to make it more inclusive. Build on mozilla, open life science, OSMOOC prescriptions. Also built on the results of WP1.
+
+   
+### Building hardware collaboratively (as open source project):   
+   - guide for collaboration rules, code of conducts, ways to make it more inclusive. Build on mozilla, open life science, OSMOOC prescriptions. Also built on the results of WP1.
+   - application to ongoing project at the FU
+   
+   
+### Communities and networks
+
+Along the project, we will work in close collaboration with different players in open source, open hardware and open science.
+
+- GOSH
+- Force11 (software citation group WG, contributor attribution IG)
+- datacite
+- g-node, incf, NFDI-neuro
+- Forster, EOSC
   
 
  
 ## expected outputs
 
-- recommandation of building open FAIR hardware (updatable book)
-- several published hardware (as examples)
-- one or several hardware peer review and publication platform(s), probably decentralised.
+- one or several hardware peer review and publication platform(s), probably decentralized.
+- recommendation for building open FAIR hardware (updatable book)
+- several published FAIR hardware (as examples: airtrack, robo-bee)
+
 
 
 # Financial plan
+
 Start: ASAP, for 2 years
 
-- 42 T€: 1 TVL14 position 35 % for 2 years (HU: Julien Colomb), project coordination, cooperation with other partners
-- 145 T€: 2 TVL13 position 50% for 2 years (TU: Robert Mies, N.N.), Hardware evaluation process/system + Recognition
+- 42 T€: 1 TVL14 position 35 % for 2 years (HU: Julien Colomb), project coordination, publication system design, cooperation with international partners, supervision
+- 72,5 T€: 1 TVL13 position 50% for 2 years (TU: Robert Mies), Hardware evaluation process/system + Recognition
+- 54 T€: 1 TVL13 position 50% for 1.5 years (TU:, N.N.), Hardware evaluation process/system + Recognition
 - 6 T€: 1 Student assistant 40h per months for two years (TU)
-- 109 T€: 2 TVL13 position 50% for 1.5 years (TBA: TBA), Hardware FAIRification
-- 3 T€: material for hardware replication ?
+- 6 T€: 1 Student assistant 40h per months for two years (FU)
+- 36 T€: 1 TVL13 position 50% for 1 years (HU), N.N., Hardware FAIRification
+- 72,5 T€: 1 TVL13 position 50% for 2 years (FU, N.N.), Hardware FAIRification, software development
+- 11 T€: publication costs, travel, workshops ?
 
 
  
