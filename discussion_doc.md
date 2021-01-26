@@ -9,6 +9,7 @@ We want to help researchers disseminate the hardware they are designing and get 
 We want to build on the open next project experience and upon advances in software and data management (for instance applying the FAIR principles) to design 
  better workflows in hardware engineering in academia.
  
+ ![summary figure](visualabstract_buacall.png)
 
  After analysing processes researchers are using when their hardware get re-built, we will write recommendations and create a toolbox to help hardware builders to work more efficiently and more collaboratively. On the other hand, we will build a review system to assess the re-usability of hardware, making it possible to give a qualitative measure of the work quality and deriving a recognition sytem.
  
