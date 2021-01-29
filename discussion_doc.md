@@ -9,11 +9,24 @@ We want to help researchers disseminate the hardware they are designing and get 
 We want to build on the open next project experience and upon advances in software and data management (for instance applying the FAIR principles) to design 
  better workflows in hardware engineering in academia.
  
- ![summary figure](visualabstract_buacall.png)
+
 
  After analysing processes researchers are using when their hardware get re-built, we will write recommendations and create a toolbox to help hardware builders to work more efficiently and more collaboratively. On the other hand, we will build a review system to assess the re-usability of hardware, making it possible to give a qualitative measure of the work quality and deriving a recognition sytem.
  
  
+  ![summary figure](https://github.com/open-science-promoters/BUAgrant_OSH/raw/main/visualabstract_buacall.png)
+  >FIG.1 In order to build a hardware publication platform, a guide for best practice in collaborative and transparent hardware development, and publish specific hardware using these tools, three groups from three Berlin universities will collaborate. While each work package (WP) will be performed collaboratively, each group is specifically responsible for one of them. We will base our work on existing tools and recommendation coming for open science practices, FAIR data principles and software citation, to build a pioneering system. Discussion and collaboration with the gathering of open science hardware and open source hardware association communities will be fostered along the project. We will also promote a discussion on hardware publication and citation inside the FORCE11 networks. 
+
+*WP to be renamed later
+
+notes:
+WP1: assess needs, assess recognition pathways, assess how the path and ideation happens.
+WP3: rename: not only collaboration. 
+guide not helpful?
+strategy: what after publication, sustainability in hardware
+
+WP4: indicators for publishers/universities ?
+  
  # Problems to solve
   - Researchers and funding agencies have not developed sufficient mechanisms to evaluate technical documentation which makes it difficult to justify the necessary funding.
  - Researchers do not know how to document their hardware.
@@ -23,19 +36,22 @@ We want to build on the open next project experience and upon advances in softwa
  
  # Work packages
  
- ## WP1: analysis of existing workflow and infrastructures (line 2)
+ ## WP1: analysis of the hardware landscape in the BUA (line 2)
  
- - Search and define specific hardware piece that were well dessiminated in their community (buridan paradigm, airtrack system, and others), analyse the dessimination process.****
- - Design and run a Survey of researchers (cross domain) about their habits in production and dissemination of hardware, pain point, existing solutions.
- (done via lime survey provided by the HU CMS). Analyse answers and run comlete response via direct interviews.
+ - Define specific hardware piece that were well dessiminated in their community, analyse the dessimination process.
  
- - Analyse resutls and refine our plan of WP2 and WP3 accordingly, especially look for a strategy to facilitate the adoption  of the developed workflow in the different communities.
+ - Design and run a Survey of researchers (cross domain) about their habits in production and dissemination of hardware, tool used, needs, pain point, existing solutions. Also assess the recognition system in use (hiring process). 
+ (done via lime survey provided by the HU CMS). Analyse answers and run complementary analysis via direct interviews.
  
- ##  WP2: Towards FAIR ~~and open source~~ hardware (line 1)
+ - Analyse resutls and refine our plan of other WP accordingly, especially look for a strategy to facilitate the adoption of the developed workflow in the different communities.
+ 
+ ##  WP2: Towards FAIR hardware (line 1)
  
 ### Introduction
 
 We want to propose a publication system for hardware. Our work will essentially be to create a novel and specific approach for academic hardware certification. On the other hand, we will build on the FAIR principles developed for data and on the software citation group outputs to integrate the certification system into an hardware publication system. We will Register and Archive the hardware documentation using workflows who have been used for software and data, while Awareness and rewards will be achieved using specific metadata schemes and indicating contribution roles in author lists. 
+
+
 
 
 >A publication system aims: 
@@ -72,7 +88,12 @@ We will optimise the underlying review process and provide a guide and "standard
 ### FAIR hardware
 
  We will consider both the production of a DOI for a snapshot of the repository (via Zenodo, Dspace or GIN), 
- or the production of a paper similar to what JOSS is doing, or via a OJS system, as is developed in the [modern publishing project in Hamburg](https://oa-pub.hos.tuhh.de/en/). We will also consider the use of RRID as a PID, in order to facilitate hardware citation in the material and method section of a paper.
+ or the production of a paper similar to what JOSS is doing, or via a OJS system, as is developed in the [modern publishing project in Hamburg](https://oa-pub.hos.tuhh.de/en/). 
+ 
+ We will also consider the use of RRID as a PID, in order to facilitate hardware citation in the material and method section of a paper.
+ 
+ We will also start to work on the recognition of hardware as a specific type of research ouptuts. This may include some collaborative work with datacite to get a specific publication type for hardware.
+ 
  
  In both approach specific metadata schema will be used to label these digital object as hardware documentation. We will work in collaboration with datacite to allow this (?).
  
