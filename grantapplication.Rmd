@@ -11,6 +11,7 @@ output:
 mainfont: Times New Roman  
 ---
 
+Note for authors: add citation by indicating the doi or directly `r citep("doi")`  of the paper, I will use knitcitation() to get them in the pdf.
 
 # Principal investigators
 
