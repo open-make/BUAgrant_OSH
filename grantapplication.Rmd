@@ -29,20 +29,32 @@ Name und Anschriften (einschließlich Telefon, Telefax und E-Mail) des bzw. der 
 
 ### Introduction
 
-- Hardware in academia
+- Hardware in academia (TL)
   - role of hardware
   - hardware dissemination
   - a career in (open source) hardware
-- Hardware documentation in open next
+- Hardware documentation and open next (RM)
   - DIN
   - wiki review system
-- FAIR principles (relation to open data and open source hardware)
+- non-traditional research output publication (JC)
+  - data and FAIR principles (relation to open data and open source hardware) 
+  - software and software citation group
+  - RRID use for reagents and hardware
 
 ### Project objectives
 
-- Evaluating and guiding hardware documentation in academia
-- Prototype tooling for evaluating of hardware documentation and sharing hardware to increase the quality of hardware research
-- Create new incentive and , independent of paper publication
+We want to create a prototype of a hardware publication system. It will include a certification system specific for FAIR and open hardware. We will work with open indexing system (datacite) to adapt publication pathways used for data and software. This system will explore new incentives (independent of journals) for the production of better hardware documentation in academia, irrespective of the research domain.
+
+In addition, we want to provide researchers with a tool to guide their work along the whole process of open and FAIR hardware design. This guide will be provided as an open book, using a technology similar to the turing way book.
+[...]
+We will first analyse the current workflows, and later the certification process of some chosen hardware pieces in neuroscience, robotics and medicine. Accordingly, we will extract best practices in hardware collaborative creation, and include them in an open book to guide researchers into a easier and more efficient creation of hardware and their documentation. This open project will be performed in close collaboration with FORCE11, `datacite,` the open source hardware association, and the GOSH communities.
+
+
+
+  ![summary figure](https://github.com/open-science-promoters/BUAgrant_OSH/raw/main/visualabstract_buacall.png)
+  >Fig.1 In order to build a hardware publication platform, a guide for best practice in collaborative and transparent hardware development, and publish specific hardware using these tools, three groups from three Berlin universities will collaborate. While each work package (WP) will be performed collaboratively, each group is specifically responsible for one of them. We will base our work on existing tools and recommendation coming for open science practices, FAIR data principles and software citation, to build a pioneering system. Discussion and collaboration with the gathering of open science hardware and open source hardware association communities will be fostered along the project. We will also promote a discussion on hardware publication and citation inside the FORCE11 networks. 
+
+
 
 ### Open science and quality control
 
