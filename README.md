@@ -11,6 +11,7 @@ We also work on these documents using hackmd:
 
 # Team
 
-Dr. Julien Colomb, HU Berlin
-Robert Mies@, TU Berlin
+- Dr. Julien Colomb, HU Berlin
+- Robert Mies@, TU Berlin
+- Tim Landgraf, FU Berlin
 
