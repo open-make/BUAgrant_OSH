@@ -15,17 +15,17 @@ Note for authors: add citation by indicating the doi or directly `r citep("doi")
 
 # Principal investigators
 
-    - Prof. Matthew Larkum, Institute of Biology, Humboldt University of Berlin, Berlin, Germany. matthew.larkum@hu-berlin.de, +49 (0)30 450 539 152.
-    - Prof. Dr.-Ing. Roland Jochem, Chair of Quality Sciencce, Institute for Machine Tools and Factory Management, Technische Universität Berlin, Berlin, Germany. roland.jochem@tu-berlin.de, +49 30 314 22005.
+    - Prof. Matthew Larkum, Institute of Biology, Humboldt-Universität zu Berlin. matthew.larkum@hu-berlin.de, +49 (0)30 450 539 152.
+    - Prof. Dr.-Ing. Roland Jochem, Chair of Quality Science, Institute for Machine Tools and Factory Management, Technische Universität Berlin. roland.jochem@tu-berlin.de, +49 30 314 22005.
     - Prof. Tim Landgraf, FU
 
 Name und Anschriften (einschließlich Telefon, Telefax und E-Mail) des bzw. der Projektleitenden an den Partnereinrichtungen; Unterschrift der Projektleitung
 
-
+# Abstract of project proposal (Maximum 2000 characters including spaces)
 
 # Beschreibung der Forschungsinhalte und weitere Erläuterungen
 
-## Kurzbeschreibung des Vorhabens unter Zuordnung zu einem in der Ausschreibung genannten Themenfeld, Darstellung der zentralen Fragestellung bzw. des Projektziels (maximal drei Seiten)
+## Kurzbeschreibung des Vorhabens unter Zuordnung zu einem in der Ausschreibung genannten Themenfeld, Darstellung der zentralen Fragestellung bzw. des Projektziels (maximal drei Seiten bzw. 11,000 Zeichen inkl. Leerzeichen)
 
 ### Introduction
 
@@ -39,15 +39,17 @@ Name und Anschriften (einschließlich Telefon, Telefax und E-Mail) des bzw. der 
 - non-traditional research output publication (JC)
   - data and FAIR principles (relation to open data and open source hardware) 
   - software and software citation group
+  - contributor lists and CREDIT
   - RRID use for reagents and hardware
 
 ### Project objectives
 
-We want to create a prototype of a hardware publication system. It will include a certification system specific for FAIR and open hardware. We will work with open indexing system (datacite) to adapt publication pathways used for data and software. This system will explore new incentives (independent of journals) for the production of better hardware documentation in academia, irrespective of the research domain.
+We want to create a prototype for a hardware publication system. It will include a certification system specific for FAIR and open hardware. We will work with open indexing system (datacite) to adapt publication pathways used for data and software. This system will explore new incentives (independent of journals) for the production of better hardware documentation in academia, irrespective of the research domain. 
 
-In addition, we want to provide researchers with a tool to guide their work along the whole process of open and FAIR hardware design. This guide will be provided as an open book, using a technology similar to the turing way book.
-[...]
-We will first analyse the current workflows, and later the certification process of some chosen hardware pieces in neuroscience, robotics and medicine. Accordingly, we will extract best practices in hardware collaborative creation, and include them in an open book to guide researchers into a easier and more efficient creation of hardware and their documentation. This open project will be performed in close collaboration with FORCE11, `datacite,` the open source hardware association, and the GOSH communities.
+In addition, we want to provide researchers with tools to guide their work along the whole process of open and FAIR hardware design. In particular, we will write a guide will be provided as an open book, using a technology similar to the turing way book `r citep("10.5281/zenodo.3233853")`.
+In order to extract best practices in hardware collaborative creation, we will analyse  current workflows in use, their successes and shortcomings. In addition,
+we will dissect the  certification process of some chosen hardware pieces in neuroscience, robotics and medicine. 
+This open project will be performed in close collaboration with FORCE11, `datacite,` the open source hardware association, and the Gathering for Open Science Hardware communities.
 
 
 
@@ -57,6 +59,8 @@ We will first analyse the current workflows, and later the certification process
 
 
 ### Open science and quality control
+
+While being mostly developed for the quality control topic of this call, this project also covers some aspects of the open science line.
 
 - line 1:
     - quality control
@@ -70,36 +74,39 @@ We will first analyse the current workflows, and later the certification process
     - prototyping tools to get independent from publishers (open infrastructure)
 
 
-## Einordnung des Vorhabens in den aktuellen internationalen Forschungsstand (maximal eine Seite)
+## Einordnung des Vorhabens in den aktuellen internationalen Forschungsstand (maximal eine Seite bzw. 3,500 Zeichen inkl. Leerzeichen)
+
+OSH is a realtively new topic, not yet covered by force11.
+- relation to DFG kodex (hardware = data)
 
 In this project, we will bring open data and open source software workflows into hardware, in collaboration with the GOSH.
 
-- relation to GOSH
+- relation to GOSH, and OSHA
 - relation to RDA, Force11, NFDI-neuro
 
-## Detailliertes Arbeitsprogramm einschließlich der geplanten Meilensteine, Ausführungen zum me- thodischen Vorgehen (einschließlich einer diesbezüglichen Risikoabschätzung), zur theoretischen Rahmung des Vorhabens sowie gegebenenfalls zum Feldzugang (maximal drei Seiten)
+## Detailliertes Arbeitsprogramm einschließlich der geplanten Meilensteine, Ausführungen zum me- thodischen Vorgehen (einschließlich einer diesbezüglichen Risikoabschätzung), zur theoretischen Rahmung des Vorhabens sowie gegebenenfalls zum Feldzugang (maximal drei Seiten bzw. 11,000 Zeichen inkl. Leerzeichen)
 
 - Report best and bad practices in hardware developement in academia.
 - Build a publication system for OSH, inculding a pioneering peer review system.
 - Teaching program for open source hardware
 
-## Angaben zu Verwertungsmöglichkeiten und -planungen; hierzu zählen Nutzungsmöglichkeiten der Ergebnisse in der wissenschaftlichen und nicht-wissenschaftlichen Öffentlichkeit (maximal zwei Sei- ten)
+## Angaben zu Verwertungsmöglichkeiten und -planungen; hierzu zählen Nutzungsmöglichkeiten der Ergebnisse in der wissenschaftlichen und nicht-wissenschaftlichen Öffentlichkeit (maximal zwei Seiten bzw. 7,000 Zeichen inkl. Leerzeichen)
 
-## Darstellung der praxisrelevanten Forschungsergebnisse sowie Konzept der Implementierung (ma- ximal zwei Seiten)
+## Darstellung der praxisrelevanten Forschungsergebnisse sowie Konzept der Implementierung (ma- ximal zwei Seiten bzw. 7,000 Zeichen inkl. Leerzeichen)
 
 - Report: bad and best practices (blog post, publication in diamond open access)
 - Final report in a diamond open access journal
 - Publication platform prototype as open source software(s)
 - runnig platform in collaboratiom with one bibliothek
 
-## Konzept zur geplanten Kooperation mit den Projektpartnern, bspw. Beschreibung der Arbeits- bzw. Aufgabenverteilung, Angaben zum wechselseitigen Mehrwert (maximal eine Seite)
+## Konzept zur geplanten Kooperation mit den Projektpartnern, bspw. Beschreibung der Arbeits- bzw. Aufgabenverteilung, Angaben zum wechselseitigen Mehrwert (maximal eine Seite bzw. 3,500 Zeichen inkl. Leerzeichen)
 
 HU: project coordination, data management, relation to international initiatives
 TU: creation/adaptation of review system
 HU: analysis of workflows
 FU: software dev.
 
-## Beschreibung der geplanten Maßnahmen zum Forschungsdatenmanagement und zur Publikations- strategie. Publikationen und Forschungsdaten sind kostenfrei zugänglich zu machen.
+## Beschreibung der geplanten Maßnahmen zum Forschungsdatenmanagement und zur Publikations- strategie. Publikationen und Forschungsdaten sind kostenfrei zugänglich zu machen. (maximal eine Seite bzw. 3,500 Zeichen inkl. Leerzeichen)
 
 Open science project ?
 
@@ -108,6 +115,9 @@ The project will get its own website and blog platform. All intermediary reports
 Research files will be organized using the GIN-Tonic application, raw (or anonimised) datasets will be made available with a CC0 license upon collection, or as soon as legally possible. Data will be curated, and its analysis will be preformed using reproducible reports, in order to facilitate re-use.
 
 Final reports will be made available under a CC-BY license, preferably using a diamond open access journal.
+
+## Referenzen - Please list your literature references.
+
 
 ## Sollen aus dem Forschungsvorhaben resultierende Ergebnisse als Beitrag in einer wissenschaftli- chen Zeitschrift veröffentlicht werden, so soll der Öffentlichkeit der unentgeltliche elektronische Zugriff (Open Access) auf den Beitrag möglich sein. Erscheint der Beitrag zunächst nicht in einer der Öffentlichkeit unentgeltlich elektronisch zugänglichen Zeitschrift, so soll der Beitrag – gegebenenfalls nach Ablauf einer angemessenen Frist (Embargofrist) – der Öffentlichkeit unentgeltlich elektronisch zugänglich gemacht werden (Zweitveröffentlichung). Im Fall der Zweitveröffentlichung soll die Em- bargofrist zwölf Monate nicht überschreiten.  
 
