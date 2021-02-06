@@ -5,19 +5,42 @@ papersize: a4
 linestretch: 1.2
 fontsize: 12pt
 links-as-notes: true
+bibliography: "references.bib"
 output:
   pdf_document:
     latex_engine: xelatex
 mainfont: Times New Roman  
 ---
 
-Note for authors: add citation by indicating the doi or directly `r citep("doi")`  of the paper, I will use knitcitation() to get them in the pdf.
+```{r, echo =FALSE}
+library(knitcitations)
+cleanbib()
+cite_options(
+  citation_format = "pandoc",
+  style = "markdown",
+  hyperlink = "to.bib",
+  cite.style = "authoryear",
+  super = FALSE,
+  max.names = 2,
+  longnamesfirst = FALSE,
+  check.entries = FALSE
+)
+
+```
+
+
+```{r, echo=FALSE, tidy = TRUE}
+
+cat('Note for authors: add citation by indicating the doi or directly \n  `r citep("doi")`  of the paper, I will use knitcitation() to get them in the pdf.')
+
+```
+
 
 # Principal investigators
 
-    - Prof. Matthew Larkum, Institute of Biology, Humboldt-Universität zu Berlin. matthew.larkum@hu-berlin.de, +49 (0)30 450 539 152.
-    - Prof. Dr.-Ing. Roland Jochem, Chair of Quality Science, Institute for Machine Tools and Factory Management, Technische Universität Berlin. roland.jochem@tu-berlin.de, +49 30 314 22005.
-    - Prof. Tim Landgraf, FU
+- Prof. Matthew Larkum, Institute of Biology, Humboldt-Universität zu Berlin. matthew.larkum@hu-berlin.de, +49 (0)30 450 539 152.
+- Prof. Dr.-Ing. Roland Jochem, Chair of Quality Science, Institute for Machine Tools and Factory Management, Technische Universität Berlin. roland.jochem@tu-berlin.de, +49 30 314 22005.
+- Prof. Tim Landgraf, FU
 
 Name und Anschriften (einschließlich Telefon, Telefax und E-Mail) des bzw. der Projektleitenden an den Partnereinrichtungen; Unterschrift der Projektleitung
 
@@ -53,7 +76,7 @@ This open project will be performed in close collaboration with FORCE11, `dataci
 
 
 
-  ![summary figure](https://github.com/open-science-promoters/BUAgrant_OSH/raw/main/visualabstract_buacall.png)
+![summary figure](https://github.com/open-science-promoters/BUAgrant_OSH/raw/main/visualabstract_buacall.png)
   >Fig.1 In order to build a hardware publication platform, a guide for best practice in collaborative and transparent hardware development, and publish specific hardware using these tools, three groups from three Berlin universities will collaborate. While each work package (WP) will be performed collaboratively, each group is specifically responsible for one of them. We will base our work on existing tools and recommendation coming for open science practices, FAIR data principles and software citation, to build a pioneering system. Discussion and collaboration with the gathering of open science hardware and open source hardware association communities will be fostered along the project. We will also promote a discussion on hardware publication and citation inside the FORCE11 networks. 
 
 
@@ -130,3 +153,11 @@ Final reports will be made available under a CC-BY license, preferably using a d
 ## Anhang: Kurze CV der beteiligten Projektleitungen, Publikationsliste mit maximal fünf themenbezo- genen Publikationen der letzten fünf Jahre je Projektleitendem, Angaben zu einschlägigen For- schungsprojekten bzw. laufenden Drittmittelvorhaben mit Titel, Förderer und Umfang, gegebenen- falls Unterstützungsschreiben / LoI der kooperierenden Partnerinstitutionen (maximal fünf Seiten).
 
 Insgesamt sollte der Projektantrag zwölf Seiten nicht überschreiten (ohne Finanzierungsplan und Anhang).
+
+# References
+
+```{r, echo=FALSE, message= FALSE}
+
+write.bibtex(file="references.bib")
+
+```
