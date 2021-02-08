@@ -1,6 +1,22 @@
 ---
 title: "Towards open and FAIR hardware"
-author: "24 months project starting in 06/2021"
+subtitle: "24 months project starting in 06/2021"
+author:
+  - name: Prof. Dr.-Ing. Roland Jochem
+    email: roland.jochem@tu-berlin.de
+    address1: Chair of Quality Science, Institute for Machine Tools
+    address2: and Factory Management, Technische Universität Berlin (TUB)
+    phone: +49 30 314 22005.
+  - name: Prof. Matthew Larkum
+    email: matthew.larkum@hu-berlin.de
+    address2: Institute of Biology, Humboldt-Universität zu Berlin (HUB).
+    phone: +49 30 450 539 152.
+  - name: Prof. Tim Landgraf
+    email: tim.landgraf@fu-berlin.de
+    address1: Dahlem Center for Machine Learning and Robotics,
+    address2:  Institute of Computer Science, Freie Universität Berlin (FUB)
+    phone: +49 30 838 75114.
+    
 papersize: a4
 linestretch: 1.2
 fontsize: 12pt
@@ -8,7 +24,9 @@ links-as-notes: true
 bibliography: "references.bib"
 output:
   pdf_document:
+    template: my-template.tex
     latex_engine: xelatex
+    keep_tex: true
 mainfont: Times New Roman  
 ---
 
@@ -30,23 +48,27 @@ cite_options(
 
 
 ```{r, echo=FALSE, tidy = TRUE}
+# authors in the yaml above
 
-cat('Note for authors: add citation by indicating the doi or directly \n  `r citep("doi")`  of the paper, I will use knitcitation() to get them in the pdf.')
+#Note for authors: add citation by indicating the doi or directly 
+# `r citep("doi")`  of the paper, I will use knitcitation() to get them in the pdf.
 
 ```
 
 
-# Principal investigators
-
-- Prof. Matthew Larkum, Institute of Biology, Humboldt-Universität zu Berlin. matthew.larkum@hu-berlin.de, +49 30 450 539 152.
-- Prof. Dr.-Ing. Roland Jochem, Chair of Quality Science, Institute for Machine Tools and Factory Management, Technische Universität Berlin. roland.jochem@tu-berlin.de, +49 30 314 22005.
-- Prof. Tim Landgraf, Dahlem Center for Machine Learning and Robotics, Institute of Computer Science, Freie Universität Berlin. tim.landgraf@fu-berlin.de, +49 30 838 75114.
 
 
 # Abstract of project proposal (Maximum 2000 characters including spaces)
 
-While hardware making is getting professionalised in academia, and while hardware maker communities have gotten organised during the last years, there is presently no system to assess the quality of that work, and no recognition system for researchers building open, FAIR hardware. We will pool expertise in hardware evaluation at the TU, academic hardware making at the FU and scholarly communication and data management at the HU, and tackle this important problematic. With this practice oriented project, the Berlin university Alliance will become an orchestrating center in the development of novel standards and tools for hardware documentation and publication. 
+Open access publishing, open data and free and open source software have become important pillars of responsible research and innovation (RRI), maximising the integrity and impact of research outputs. Presently, a new school of thought is emerging which aims to establish an open source hardware (OH) strategy for academia. OH communities are extending the principles of free and open source from software development into physical products. ~~Open hardware describes tangible products “for which a free right of any use belongs to the general public and whose documentation is completely available and freely accessible on the Internet” (DIN SPEC 3105-1:2020 - Open Source Hardware).~~ By enabling hardware reuse and quality control, the OH strategy is filling an important gap in the promotion of FAIR data principles by national funding agencies and the European Commission (seeking to make data findable, accessible, interoperable and reusable). 
 
+This project will contribute to this mission through new methods, tools, guidance, standards and awareness building to evaluate and preserve the replicability of hardware in academia. We will pool expertise in hardware evaluation at the TUB, academic hardware making at the FUB and scholarly communication and data management at the HUB. Created solutions will be prototyped and verified within ongoing hardware projects of the partners in the fields of automation, physical metrology and virtual reality applications. Our cross-disciplinary approach is oriented towards creating a new recognition system for researchers building open, FAIR hardware and thus creating the opportunity for new carrier paths. With this practice-oriented project, the Berlin University Alliance will create a centre of competence in Berlin for the development of novel standards and tools for hardware documentation and publication. Moreover, open, FAIR hardware presents a new alternative to traditional intellectual property rights (IPR) practices, reflecting the wider role of academic research in society.
+
+> [I crosses this out:]
+while hardware making is getting professionalised in academia, and while hardware maker communities have gotten organised during the last years, there is presently no system to assess the quality of that work, and no [...] 
+
+> JC: would like something shorter, but looks very good. maybe worth coming back to it at the end of the week.
+> RM: Sure. Made it within the given 2000 characters incl. spaces, so there is no need to shorten it.
 
 # Beschreibung der Forschungsinhalte und weitere Erläuterungen
 
@@ -144,19 +166,22 @@ TU: creation/adaptation of review system
 HU: analysis of workflows
 FU: software dev.
 
+We will actively seek for additional collaborators and international networks during the project. We will coordinate our work with the gathering of open source hardware to create a FORCE11 interest group, and/or a RDA working group.
+
 ## Beschreibung der geplanten Maßnahmen zum Forschungsdatenmanagement und zur Publikations- strategie. Publikationen und Forschungsdaten sind kostenfrei zugänglich zu machen. (maximal eine Seite bzw. 3,500 Zeichen inkl. Leerzeichen)
 
-Open science project ?
+This project will be run using an open research methodology, where data, results, discussion and ideas will be shared in an open repository on GIN (gin.g-node.org/), using a standard research folder organsation `r citep("https://doi.org/10.25815/WCY6-M233.")`. raw (or anonimised) datasets will be made available with a CC0 license upon collection, or as soon as legally possible. Data will be curated, and its analysis will be preformed using reproducible reports, in order to facilitate re-use. Upon publication, the whole repository will be archived and published via the GIN platform.
 
-The project will get its own website and blog platform. All intermediary reports will be made public with a CC-By license via this platform, as soon as possible.
+Hardware will be published following the workflow developed in this project, under an open source license for hardware.
 
-Research files will be organized using the GIN-Tonic application, raw (or anonimised) datasets will be made available with a CC0 license upon collection, or as soon as legally possible. Data will be curated, and its analysis will be preformed using reproducible reports, in order to facilitate re-use.
+Intermediary reports will be published on blog platforms specialised in scholarly communication or hardware makers (depending on the topic of the report). Manuscript will be uploaded in a preprint server before submission to a journal. Following plan S, only gold and diamond open access journal (offering CC-BY license and copyright retention by the authors, and being in the DOAJ index), will be considered as host for our outputs, the latter being prefered.
 
-Final reports will be made available under a CC-BY license, preferably using a diamond open access journal.
+
+
 
 ## Referenzen - Please list your literature references.
 
-
+<!---
 ## Sollen aus dem Forschungsvorhaben resultierende Ergebnisse als Beitrag in einer wissenschaftli- chen Zeitschrift veröffentlicht werden, so soll der Öffentlichkeit der unentgeltliche elektronische Zugriff (Open Access) auf den Beitrag möglich sein. Erscheint der Beitrag zunächst nicht in einer der Öffentlichkeit unentgeltlich elektronisch zugänglichen Zeitschrift, so soll der Beitrag – gegebenenfalls nach Ablauf einer angemessenen Frist (Embargofrist) – der Öffentlichkeit unentgeltlich elektronisch zugänglich gemacht werden (Zweitveröffentlichung). Im Fall der Zweitveröffentlichung soll die Em- bargofrist zwölf Monate nicht überschreiten.  
 
 ...
@@ -168,8 +193,9 @@ Final reports will be made available under a CC-BY license, preferably using a d
 ## Anhang: Kurze CV der beteiligten Projektleitungen, Publikationsliste mit maximal fünf themenbezo- genen Publikationen der letzten fünf Jahre je Projektleitendem, Angaben zu einschlägigen For- schungsprojekten bzw. laufenden Drittmittelvorhaben mit Titel, Förderer und Umfang, gegebenen- falls Unterstützungsschreiben / LoI der kooperierenden Partnerinstitutionen (maximal fünf Seiten).
 
 Insgesamt sollte der Projektantrag zwölf Seiten nicht überschreiten (ohne Finanzierungsplan und Anhang).
-
-# References
+--->
+~~Wilkinson, M., Dumontier, M., Aalbersberg, I. et al. The FAIR Guiding Principles for scientific data management and stewardship. Sci Data 3, 160018 (2016). https://doi.org/10.1038/sdata.2016.18~~
+> references will be created directly in the pdf when inserting the r code and doi (see top of document)
 
 ```{r, echo=FALSE, message= FALSE}
 
