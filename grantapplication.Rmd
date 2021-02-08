@@ -181,7 +181,7 @@ Intermediary reports will be published on blog platforms specialised in scholarl
 
 ## Referenzen - Please list your literature references.
 
-<!---
+<---!
 ## Sollen aus dem Forschungsvorhaben resultierende Ergebnisse als Beitrag in einer wissenschaftli- chen Zeitschrift veröffentlicht werden, so soll der Öffentlichkeit der unentgeltliche elektronische Zugriff (Open Access) auf den Beitrag möglich sein. Erscheint der Beitrag zunächst nicht in einer der Öffentlichkeit unentgeltlich elektronisch zugänglichen Zeitschrift, so soll der Beitrag – gegebenenfalls nach Ablauf einer angemessenen Frist (Embargofrist) – der Öffentlichkeit unentgeltlich elektronisch zugänglich gemacht werden (Zweitveröffentlichung). Im Fall der Zweitveröffentlichung soll die Em- bargofrist zwölf Monate nicht überschreiten.  
 
 ...
@@ -193,10 +193,9 @@ Intermediary reports will be published on blog platforms specialised in scholarl
 ## Anhang: Kurze CV der beteiligten Projektleitungen, Publikationsliste mit maximal fünf themenbezo- genen Publikationen der letzten fünf Jahre je Projektleitendem, Angaben zu einschlägigen For- schungsprojekten bzw. laufenden Drittmittelvorhaben mit Titel, Förderer und Umfang, gegebenen- falls Unterstützungsschreiben / LoI der kooperierenden Partnerinstitutionen (maximal fünf Seiten).
 
 Insgesamt sollte der Projektantrag zwölf Seiten nicht überschreiten (ohne Finanzierungsplan und Anhang).
---->
-~~Wilkinson, M., Dumontier, M., Aalbersberg, I. et al. The FAIR Guiding Principles for scientific data management and stewardship. Sci Data 3, 160018 (2016). https://doi.org/10.1038/sdata.2016.18~~
-> references will be created directly in the pdf when inserting the r code and doi (see top of document)
 
+# References
+Wilkinson, M., Dumontier, M., Aalbersberg, I. et al. The FAIR Guiding Principles for scientific data management and stewardship. Sci Data 3, 160018 (2016). https://doi.org/10.1038/sdata.2016.18
 ```{r, echo=FALSE, message= FALSE}
 
 write.bibtex(file="references.bib")
