@@ -52,6 +52,7 @@ cite_options(
 
 #Note for authors: add citation by indicating the doi or directly 
 # `r citep("doi")`  of the paper, I will use knitcitation() to get them in the pdf.
+# use only the doi, not the https address
 
 ```
 
@@ -76,7 +77,7 @@ while hardware making is getting professionalised in academia, and while hardwar
 
 ### Hardware in academia
 
-While the DFG kodex `r citep("https://doi.org/10.5281/zenodo.3923602")` , the guideline 7 states that the quality insurance of published research outputs used must be explained. The Kodex does not mention hardware, although hardware creation (and especicially open source hardware) has been a large part of the research process in many different disciplines.
+While the DFG kodex `r citep("10.5281/zenodo.3923602")` , the guideline 7 states that the quality insurance of published research outputs used must be explained. The Kodex does not mention hardware, although hardware creation (and especicially open source hardware) has been a large part of the research process in many different disciplines.
 
 - Hardware in academia (TL)
   - role of hardware in academia
@@ -95,7 +96,7 @@ While the DFG kodex `r citep("https://doi.org/10.5281/zenodo.3923602")` , the gu
 
 
 In order to build an recognition system for hardware, we will seek inspiration in data and software publication system, that have been developed  during the last decade.
-While articles production is still the major source of recognition for researchers, other, non-traditional research outputs are indeed starting to be recognized (see guideline 13 of the DFG kodex). In particular, there are new publication pathways for research data and research software, via specific platforms that use datacite to get a doi and proper metadata. The specialised platforms run rather independently of the usual journals articles presenting the research results. Citations are dealt via the scholarly communication ecosystem, but citation to the original data or software (instead of the first article using it) is recommended by a RDA group `r citep("https://doi.org/10.12688/f1000research.26932.2")`. 
+While articles production is still the major source of recognition for researchers, other, non-traditional research outputs are indeed starting to be recognized (see guideline 13 of the DFG kodex). In particular, there are new publication pathways for research data and research software, via specific platforms that use datacite to get a doi and proper metadata. The specialised platforms run rather independently of the usual journals articles presenting the research results. Citations are dealt via the scholarly communication ecosystem, but citation to the original data or software (instead of the first article using it) is recommended by a RDA group `r citep("10.12688/f1000research.26932.2")`. 
 
 These pathways are coming with specialised quality insurance mechansims. Data curation is following FAIR principles, originally developped by the FORCE11 coomunity `r citep("10.1038/sdata.2016.18")`, and software review are run on git platforms, for example in the journal of Open Source Software (JOSS, ISSN 2475-9066), following community standards.
 
@@ -120,7 +121,7 @@ This open project will be performed in close collaboration with FORCE11, `dataci
 
 ### Open science and quality control
 
-While being mostly developed for the quality control topic of this call, this project also covers some aspects of the open science line.
+~~While being mostly developed for the quality control topic of this call, this project also covers some aspects of the open science line.~~
 
 - line 1:
     - quality control
@@ -133,8 +134,45 @@ While being mostly developed for the quality control topic of this call, this pr
     - open practices in the dissemination of hardware documentation (license, publication)  
     - prototyping tools to get independent from publishers (open infrastructure)
 
+The project Open!Make addresses mainly Line 1: Research Quality and some  specific aspects of Line 2: Open Science as part of implementation and through actions for impact maximisation.
+
+#### Open!Make’s responses to Line 1: Research Quality
+
+**Research quality in different disciplines**: In practice, hardware development requires for it to be continuously documented according to generally acknowledged national and international standards, in order for the resulting technology to serve as an exploitable result. Traditionally, publicly funded research projects tend to seek IP protection through patents, design and trademark application as well as technology transfer. While this is common practice, RRI involves holding research to high ethical standards including the reproducibility of research results. 
+On the other hand, research often depends on self-made hardware solutions that are developped during the scientific project, but are not disseminated outside of single project. One single researcher is often responsible for building, testing and using these solutions, and there is no organised quality control in most labs.  
+This impediment of information sharing and quality control leads to duplicated work, sometimes innaccuracies in research results, and difficulties in results comparisons. This even happens at a single lab level. Because researchers are lacking guidance on making hardware documentation, the cost for sharing and control hardware is too high for them, especially as there is no visible benefit, and they rapidely get stuck in their will of sharing. 
+
+Open!Make will enable researchers and joint research projects to easily evaluate and publish hardware according to open hardware and FAIR data principles. This provides an alternative to IP and a sustainable path that ensures unhindered reuse of products by any actor interested in making use of and benefiting from these resources. Moreover, verifying developed solutions within ongoing hardware projects of the partners in the fields of automation, medical device, physical metrology and virtual reality applications will ensure that different disciplines are taken into account. These include biology, neurology, medecine and physics amongst many others.
+
+
+**Evaluation and assessment procedures**: In research, hardware development is mainly guided by technology readiness levels (TRLs) which are an estimation of the maturity of a technology and allow to situate the positioning of a project in the spectrum from idea to application or from lab to market. Defining quality criteria in hardware development then requires consideration issues such as project goals, stakeholder needs, and regional and sectoral contexts (environmental, socioeconomic, geographical, cultural) and translate them into technical requirements. From there technology is prototyped, demonstrated, optimized and qualified against these requirements. Proprietary logic leads for this to happen within project boundaries. Hardware development according to OH and FAIR data principles however presents additional requirements (e.g. transparency, accessibility, replicability, etc.) and their independent evaluation. In response to this, Open!Make aims to create new processes and infrastructure for the evaluation of hardware replicability and publication of product- and process-related documentation. While the former develops qualitative methodology to assess the conformity of hardware with OH and FAIR principles, the latter allows to attribute individual contributors of research outputs from hardware making. Since such research outputs are largely unrecognized in academia, this will lead to new quantitative indicators beyond the visibility of published research articles.
+
+#### Open!Make’s responses to Line 2: Open Science 
+> *[under construction - please feel free to add more points...]*
+> this might be too long
+
+**Funding of open science practices**: 
+- Promote new evaluation criteria for awarding and allocation of research funds by universities and funding agencies beyond traditional indicators (no. of PhDs, journal papers, etc.). 
+- Engage in actions that help researchers and joint research projects in the application and of receiving of research funding to fulfil additional requirements by OH and FAIR data principles:
+    - Supporting the “Open Hardware Maker Curriculum” by creating guidelines on the documentation, evaluation and publishing of open, FAIR hardware in the form of new modules
+    - Supporting ongoing standardisation initiatives, e.g. the extension of the DIN SPEC 3105:2020 -  Open Source Hardware for science.
+- Peer to peer practices and evaluation approaches of open, FAIR hardware can enable universities to remain independent from publishers. Therefore, another important output will be a report on the basic infrastructure requirements to enable documentation, evaluation and publishing of open, FAIR hardware.
+
+**Analysis of disciplinary framework conditions for open science**:
+- Mapping national and international standards for technical documentation and open data sharing
+- create/promote international consortium dedicated to build a better framework (FROCE11) 
+
+**Studies on science policy**:
+- Qualitative analysis of current practices in hardware creation considering in particular the partners’ institutions.
+
+**Development of concepts for potential cross alliance measures**:
+- Pro-active cooperation with other relevant projects on the harmonising of practices in open, FAIR hardware from academia (licensing, evaluation, publication, etc.); and with relevant actors (university libraries, university administrations, publishers and funding agencies) and initiatives (e.g. German Reproducibility Network) on the wider establishment of conformity assessment and indicators of open, FAIR hardware.
+
+With this practice-oriented project, the Berlin University Alliance will create a centre of competence in Berlin for the development of novel standards and tools for hardware documentation and publication. Open!Make is moreover keen to cooperate with BUA Objective 5: Sharing Resources and the BUA Cross Cutting Themes on issues such as diversity, gender, teaching, and internationalization.
+
 
 ## Einordnung des Vorhabens in den aktuellen internationalen Forschungsstand (maximal eine Seite bzw. 3,500 Zeichen inkl. Leerzeichen)
+
 
 OSH is a realtively new topic, not yet covered by force11.
 - relation to DFG kodex (hardware = data)
@@ -145,6 +183,40 @@ In this project, we will bring open data and open source software workflows into
 - relation to RDA, Force11, NFDI-neuro
 
 ## Detailliertes Arbeitsprogramm einschließlich der geplanten Meilensteine, Ausführungen zum me- thodischen Vorgehen (einschließlich einer diesbezüglichen Risikoabschätzung), zur theoretischen Rahmung des Vorhabens sowie gegebenenfalls zum Feldzugang (maximal drei Seiten bzw. 11,000 Zeichen inkl. Leerzeichen)
+
+### WP1: Surveying hardware practices in academia
+
+In this first work package, we will grow a hardware maker community in the BUA, analyse specific use cases, and build a larger survey of the different practices and needs of the community. This will help us refine the second WP and feed the third WP with pragmatical data on best practices and shortcomings in hardware design and sharing.
+
+We will find and contact researchers (focusing on Berlin based researchers) who are active in hardware development and conduct qualitative one on one interviews. We will also use these interviews to add interesting use case to the existing list for further analysis (see below) and make initial contact to build a community of academic hardware makers.
+
+We will also actively seek for additional collaborators and international networks during this first phase of the project. We will coordinate our work with the gathering of open source hardware to create a FORCE11 interest group (or altenatively a RDA working group).
+
+Importantly, we will analyse several hardware piece in details, how they were designed, shared and disseminated. While we will complete this list during the work, we already have 3 use cases:
+
+- The Airtrack system `r citep("10.1152/jn.00088.2016")` has been developped in 2016 in the Larkum lab and was re-built in a lab in the USA in 2018. We will analyse this relatively long process.
+- robofish `r citep(" 10.1098/rsbl.2020.0436")`
+- open imaging
+
+Expected outputs:
+- FORCE11 interest group
+- Blog post(s) on the FORCE website
+- dataset of interview analysis
+- dataset of use case analysis
+
+### WP2 Hardware publication system
+
+#### a) Peer review system for hardware publication
+
+#### b) Publication system
+
+In addition to quality control, a publication system should provide recognition to the authors (or contributors) who worked on the project, a long term archive of the research results, a registration of the work (allowing people to find it), and awareness. 
+
+Registration and awareness depends on the use of a metadata model that is used in the targetted community. We want to expand the metadata model used for most data and software publication, i.e. the datacite model and/or [the schema.org model](https://schema.org/). This would allow for specific search and hardware discovery tools, that are in developement for datasets (see https://www.go-fair.org/implementation-networks/overview/discovery/).
+
+
+### WP3 Open education for hardware building
+
 
 - Report best and bad practices in hardware developement in academia.
 - Build a publication system for OSH, inculding a pioneering peer review system.
@@ -170,7 +242,7 @@ We will actively seek for additional collaborators and international networks du
 
 ## Beschreibung der geplanten Maßnahmen zum Forschungsdatenmanagement und zur Publikations- strategie. Publikationen und Forschungsdaten sind kostenfrei zugänglich zu machen. (maximal eine Seite bzw. 3,500 Zeichen inkl. Leerzeichen)
 
-This project will be run using an open research methodology, where data, results, discussion and ideas will be shared in an open repository on GIN (gin.g-node.org/), using a standard research folder organsation `r citep("https://doi.org/10.25815/WCY6-M233.")`. raw (or anonimised) datasets will be made available with a CC0 license upon collection, or as soon as legally possible. Data will be curated, and its analysis will be preformed using reproducible reports, in order to facilitate re-use. Upon publication, the whole repository will be archived and published via the GIN platform.
+This project will be run using an open research methodology, where data, results, discussion and ideas will be shared in an open repository on GIN (gin.g-node.org/), using a standard research folder organsation `r citep("10.25815/WCY6-M233")`. raw (or anonimised) datasets will be made available with a CC0 license upon collection, or as soon as legally possible. Data will be curated, and its analysis will be preformed using reproducible reports, in order to facilitate re-use. Upon publication, the whole repository will be archived and published via the GIN platform.
 
 Hardware will be published following the workflow developed in this project, under an open source license for hardware.
 
@@ -181,7 +253,7 @@ Intermediary reports will be published on blog platforms specialised in scholarl
 
 ## Referenzen - Please list your literature references.
 
-<---!
+<!---
 ## Sollen aus dem Forschungsvorhaben resultierende Ergebnisse als Beitrag in einer wissenschaftli- chen Zeitschrift veröffentlicht werden, so soll der Öffentlichkeit der unentgeltliche elektronische Zugriff (Open Access) auf den Beitrag möglich sein. Erscheint der Beitrag zunächst nicht in einer der Öffentlichkeit unentgeltlich elektronisch zugänglichen Zeitschrift, so soll der Beitrag – gegebenenfalls nach Ablauf einer angemessenen Frist (Embargofrist) – der Öffentlichkeit unentgeltlich elektronisch zugänglich gemacht werden (Zweitveröffentlichung). Im Fall der Zweitveröffentlichung soll die Em- bargofrist zwölf Monate nicht überschreiten.  
 
 ...
@@ -193,9 +265,11 @@ Intermediary reports will be published on blog platforms specialised in scholarl
 ## Anhang: Kurze CV der beteiligten Projektleitungen, Publikationsliste mit maximal fünf themenbezo- genen Publikationen der letzten fünf Jahre je Projektleitendem, Angaben zu einschlägigen For- schungsprojekten bzw. laufenden Drittmittelvorhaben mit Titel, Förderer und Umfang, gegebenen- falls Unterstützungsschreiben / LoI der kooperierenden Partnerinstitutionen (maximal fünf Seiten).
 
 Insgesamt sollte der Projektantrag zwölf Seiten nicht überschreiten (ohne Finanzierungsplan und Anhang).
+--->
+~~Wilkinson, M., Dumontier, M., Aalbersberg, I. et al. The FAIR Guiding Principles for scientific data management and stewardship. Sci Data 3, 160018 (2016). https://doi.org/10.1038/sdata.2016.18~~
+> references will be created directly in the pdf when inserting the r code and doi (see top of document)
+> Perfect, thanks!
 
-# References
-Wilkinson, M., Dumontier, M., Aalbersberg, I. et al. The FAIR Guiding Principles for scientific data management and stewardship. Sci Data 3, 160018 (2016). https://doi.org/10.1038/sdata.2016.18
 ```{r, echo=FALSE, message= FALSE}
 
 write.bibtex(file="references.bib")
