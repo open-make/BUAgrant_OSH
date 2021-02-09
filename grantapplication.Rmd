@@ -62,15 +62,24 @@ cite_options(
 # Abstract 
 <!--- of project proposal (Maximum 2000 characters including spaces) --->
 
-Open access publishing, open data and free and open source software have become important pillars of responsible research and innovation (RRI), maximising the integrity and impact of research outputs. Presently, a new school of thought is emerging which aims to establish an open source hardware (OH) strategy for academia. OH communities are extending the principles of free and open source from software development into physical products. ~~Open hardware describes tangible products “for which a free right of any use belongs to the general public and whose documentation is completely available and freely accessible on the Internet” (DIN SPEC 3105-1:2020 - Open Source Hardware).~~ By enabling hardware reuse and quality control, the OH strategy is filling an important gap in the promotion of FAIR data principles by national funding agencies and the European Commission (seeking to make data findable, accessible, interoperable and reusable). 
+Open access publishing, open data and free and open source software have become important pillars of responsible research and innovation (RRI), maximising the integrity and impact of research outputs. Presently, a new school of thought is emerging which aims to establish an open source hardware (OH) strategy for academia. OH communities are extending the principles of free and open source from software development into physical products, enabling hardware reuse and quality control, the OH strategy is filling an important gap in the promotion of FAIR data principles by national funding agencies and the European Commission (seeking to make data findable, accessible, interoperable and reusable). 
 
-This project will contribute to this mission through new methods, tools, guidance, standards and awareness building to evaluate and preserve the replicability of hardware in academia. We will pool expertise in hardware evaluation at the TUB, academic hardware making at the FUB and scholarly communication and data management at the HUB. Created solutions will be prototyped and verified within ongoing hardware projects of the partners in the fields of automation, physical metrology and virtual reality applications. Our cross-disciplinary approach is oriented towards creating a new recognition system for researchers building open, FAIR hardware and thus creating the opportunity for new carrier paths. With this practice-oriented project, the Berlin University Alliance will create a centre of competence in Berlin for the development of novel standards and tools for hardware documentation and publication. Moreover, open, FAIR hardware presents a new alternative to traditional intellectual property rights (IPR) practices, reflecting the wider role of academic research in society.
+This project will contribute to this mission through new methods, tools, guidance, standards and awareness building to evaluate and preserve the replicability of hardware in academia. We will pool expertise in hardware evaluation at the TUB, academic hardware making at the FUB and scholarly communication and data management at the HUB. Created solutions will be prototyped and verified within ongoing hardware projects of the partners in the fields of automation, physical metrology and virtual reality applications. Our cross-disciplinary approach is oriented towards creating a new recognition system for researchers building open, FAIR hardware and thus creating the opportunity for new carrier paths. 
+
+With this practice-oriented project, the Berlin University Alliance has the opportunity to become a centre of competence for the development of novel standards and tools for hardware documentation and publication. Moreover, open, FAIR hardware presents a new alternative to traditional intellectual property rights (IPR) practices, reflecting the wider role of academic research in society.
+
+| ![summary figure](https://github.com/open-science-promoters/BUAgrant_OSH/raw/main/visualabstract_buacall.png){width=80%}   |
+|---|
+|Visual abstract. In order to build the foundation for a recognition of hardware making skills in academia , three groups from three Berlin universities will collaborate and create a hardware publication platform, a guide for best practice in collaborative and transparent hardware development, and publish specific hardware using these tools. We will base our work on one side on existing tools, practices and recommendation coming for open science practices, FAIR data principles and software citation, and on the other side on recent development in open hardware evaluation tools. Discussion and collaboration with the gathering of open science hardware and open source hardware association communities will be fostered along the project. We will also promote a discussion on hardware publication and citation inside the FORCE11 networks.|
+> I really like the visual abstract![name=Robert Mies]
 
 > [I crossed this out:]
-while hardware making is getting professionalised in academia, and while hardware maker communities have gotten organised during the last years, there is presently no system to assess the quality of that work, and no [...] 
+while hardware making is getting professionalised in academia, and while hardware maker communities have gotten organised during the last years, there is presently no system to assess the quality of that work, and no [...] [name=Robert Mies]
 
+> [I crossed this out:]. ~~Open hardware describes tangible products “for which a free right of any use belongs to the general public and whose documentation is completely available and freely accessible on the Internet” (DIN SPEC 3105-1:2020 - Open Source Hardware).~~ By [name=Julien]
 > JC: would like something shorter, but looks very good. maybe worth coming back to it at the end of the week.
-> RM: Sure. Made it within the given 2000 characters incl. spaces, so there is no need to shorten it.
+
+> Sure. Made it within the given 2000 characters incl. spaces, so there is no need to shorten it.[name=Robert Mies]
 
 # Beschreibung der Forschungsinhalte und weitere Erläuterungen
 
@@ -78,14 +87,7 @@ while hardware making is getting professionalised in academia, and while hardwar
 <!---
 Kurzbeschreibung des Vorhabens unter Zuordnung zu einem in der Ausschreibung genannten Themenfeld, Darstellung der zentralen Fragestellung bzw. des Projektziels (maximal drei Seiten bzw. 11,000 Zeichen inkl. Leerzeichen)
 --->
-### Visual abstract
 
-| ![summary figure](https://github.com/open-science-promoters/BUAgrant_OSH/raw/main/visualabstract_buacall.png){width=200px}  |Fig.1 In order to build a hardware publication platform, a guide for best practice in collaborative and transparent hardware development, and publish specific hardware using these tools, three groups from three Berlin universities will collaborate. While each work package (WP) will be performed collaboratively, each group is specifically responsible for one of them. We will base our work on existing tools and recommendation coming for open science practices, FAIR data principles and software citation, to build a pioneering system. Discussion and collaboration with the gathering of open science hardware and open source hardware association communities will be fostered along the project. We will also promote a discussion on hardware publication and citation inside the FORCE11 networks.   |
-|---|---|
-|<img width=500/>|<img width=200/>|
-
-
-  > 
 
 ### Hardware is absent of scholarly commons
 
@@ -108,17 +110,21 @@ Kurzbeschreibung des Vorhabens unter Zuordnung zu einem in der Ausschreibung gen
 
 >IMPORTANCE OF HARDWARE IN ACADEMIA: TIM
 
-Although hardware creation (and especicially open source hardware) has been a large part of the research process in many different disciplines, hardware making is still not recognized in academia. While we see pioneering approach to publish data and software related to a reseach article (see https://blog.datadryad.org/2021/02/08/doing-it-right-a-better-approach-for-software-amp-data/), there is no publication system for hardware, and no direct mention of hardware in the DFG kodex `r citep("10.5281/zenodo.3923602")`. Even in the CREDIT initiative that want to create incentives for non-canonical contribution in research `r citep("10.1080/08989621.2020.1779591 ")`, hardware making has been left out.
+>"IMPORTANCE OF HARDWARE MAKING..."?[name=Robert Mies]
+
+HARDWARE
+Although hardware creation (and especicially open source hardware) has been a large part of the research process in many different disciplines, hardware making is still not recognized in academia. While we see pioneering approach to publish data and software related to a reseach article (see https://blog.datadryad.org/2021/02/08/doing-it-right-a-better-approach-for-software-amp-data/), there is no publication system for hardware, and no direct mention of hardware in the DFG kodex `r citep("10.5281/zenodo.3923602")`. Even in the CREDIT initiative that want to create incentives for non-traditional contribution in research `r citep("10.1080/08989621.2020.1779591 ")`, hardware making has been left out.
 Accordingly, there is no incentive and few tools for researchers to provide documentation for their hardware design.
 
-Research data and software are in contrast published using specific licenses, specific platforms (Dryad and zenodo for example), specific evaluation mechanisms (data curation and software review), and the community is recommending the citation of these instances instead of the research paper (`r citet("10.12688/f1000research.26932.2")`, see WP2b for more details).
+Research data and software are in contrast published using specific licenses, specific platforms (Dryad and zenodo for example), specific evaluation mechanisms (data curation and software review), and the community is recommending the citation of these instances instead of the research paper (`r citet("10.12688/f1000research.26932.2")`, see WP2 for more details).
 As a consequence, the publication of datasets and software start to be recognised as an important research outputs (see guideline 13 of the DFG kodex `r citet("10.5281/zenodo.3923602")`).
 
 
-The hardware makers communities are organising themselves, but there is still few representation of these communities in larger organisation devoted to scholarly communication (FORCE11) or data management (RDA: Research Data Alliance). In particular, there are different initiatives aiming at creating an evaluation workflow for hardware.
+The hardware makers communities are organising themselves, but there is still few representation of these communities in larger organisations devoted to scholarly communication (FORCE11) or data management (RDA: Research Data Alliance). In particular, there are different initiatives aiming at creating an evaluation workflow for hardware.
 
 >HARDWARE EVALUATION INTRO: ROBERT
 
+In research (projects), defining quality criteria as part of hardware development requires to consider issues such as project goals, stakeholder needs, regional and sectoral contexts (environmental, socioeconomic, geographical, cultural). These are then translated into technical requirements against which technology is prototyped, demonstrated, optimized and/or qualified. Presently prevailing proprietary logic in academia leads for the validation of requirements' fulfillment to occur within project boundaries. Hardware development according to OH and FAIR data principles presents additional requirements such as transparency, accessibility, replicability. The latter refers in particular to the resulting hardware `r citep("10.5334/joh.7")` and presents a critical factor for RRI. However, a key question on open, FAIR hardware in recent years has been to ask "how open" it is `r citep("10.1016/j.procir.2018.08.306")`. As the only viable way to answer this question, independent hardware evaluation is an important enabler that can lend credibility to open, FAIR hardware in academia and thus unlock its untapped potential.  
 
 ### Project objectives
 
@@ -129,14 +135,8 @@ In order to extract best practices in hardware collaborative creation, we will a
 we will dissect the  certification process of some chosen hardware pieces in neuroscience, robotics and medicine. 
 This open project will be performed in close collaboration with FORCE11, `datacite,` the open source hardware association, and the Gathering for Open Science Hardware communities.
 
-
-
-
-
-
-
 ### Open science and quality control
-
+<!---
 ~~While being mostly developed for the quality control topic of this call, this project also covers some aspects of the open science line.~~
 
 - line 1:
@@ -149,7 +149,7 @@ This open project will be performed in close collaboration with FORCE11, `dataci
     - analysis of current practices in hardware creation
     - open practices in the dissemination of hardware documentation (license, publication)  
     - prototyping tools to get independent from publishers (open infrastructure)
-
+--->
 The project Open!Make fully addresses Line 1: Research Quality and  specific aspects of Line 2: Open Science as part of implementation and through actions for impact maximisation.
 
 #### Open!Make’s responses to Line 1: Research Quality
@@ -161,12 +161,15 @@ Open!Make will enable researchers and joint research projects to easily evaluate
 
 
 **Area 2: Evaluation and assessment procedures**: 
-Defining quality criteria in hardware development for research requires to consider issues such as project goals, stakeholder needs, technical,  regional and sectoral conditions (environmental, socioeconomic, geographical, cultural) and to then translate them into technical requirements. From there technology is prototyped, demonstrated, optimized and qualified against these requirements. Proprietary logic leads for the validation of requirements' fulfillment to happen within project boundaries. Hardware development according to OH and FAIR data principles however presents additional requirements (e.g. transparency, accessibility, replicability, etc.) and their independent evaluation. In response to this, Open!Make aims to create new processes and infrastructure for the evaluation of hardware replicability and publication of product- and process-related documentation. While the former develops qualitative methodology to assess the conformity of hardware with OH and FAIR principles, the latter allows to attribute individual contributors of research outputs from hardware making. Since such research outputs are largely unrecognized in academia, this will lead to new quantitative indicators beyond the visibility of published research articles.
+Open!Make aims to create new processes and infrastructure for the evaluation of hardware replicability and publication of product- and process-related documentation. While the former develops qualitative methodology to assess the conformity of hardware with OH and FAIR principles, the latter allows to attribute individual contributors of research outputs from hardware making. Since such research outputs are largely unrecognized in academia, this will lead to new quantitative indicators beyond the visibility of published research articles.
 
 #### Open!Make’s responses to Line 2: Open Science 
 > this might be too long
 > 
 > We could move the input for area 1 to the work programm and shorten it here.
+
+> agreed 
+> [name=Julien]
 
 **Area 1: Funding of open science practices**: 
 We will promote new evaluation criteria for awarding and allocation of research funds by universities and funding agencies beyond traditional indicators (no. of PhDs, journal papers, etc.). Moreover, we will engage in the following collaborative actions that enable researchers and joint research projects to apply for research funding to fulfil additional requirements by OH and FAIR data principles:
@@ -190,7 +193,7 @@ With this practice-oriented project, the Berlin University Alliance will create 
 
 
 OSH is a realtively new topic, not yet covered by force11.
-- relation to DFG kodex (hardware = data)
+- relation to DFG kodex (hardware = data): not in hardware
 
 In this project, we will bring open data and open source software workflows into hardware, in collaboration with the GOSH.
 
@@ -203,11 +206,12 @@ In this project, we will bring open data and open source software workflows into
 
 In this first work package, we will grow a hardware maker community in the BUA, analyse specific use cases, and build a larger survey of the different practices and needs of the community. This will help us refine the second WP and feed the third WP with pragmatical data on best practices and shortcomings in hardware design and sharing.
 
-We will find and contact researchers (focusing on Berlin based researchers) who are active in hardware development and conduct qualitative one on one interviews. We will also use these interviews to add interesting use case to the existing list for further analysis (see below) and make initial contact to build a community of academic hardware makers.
+We will find and contact researchers (focusing on Berlin based researchers of any discipline) who are active in hardware development and conduct qualitative one on one interviews. We will survey the tool used, researcher needs, pain points and their habits in the production and dissemination of the hardware. We will also use these interviews to add interesting use case to the existing list for further analysis (see below) and make initial contact to build a community of academic hardware makers.
 
-We will also actively seek for additional collaborators and international networks during this first phase of the project. We will coordinate our work with the gathering of open source hardware to create a FORCE11 interest group (or altenatively a RDA working group).
 
-Importantly, we will analyse several hardware piece in details, how they were designed, shared and disseminated. While we will complete this list during the work, we already have 3 use cases:
+We will also actively seek for additional collaborators and international networks during this first phase of the project. We will coordinate our work with the gathering of open source hardware and create a FORCE11 interest group (or altenatively a RDA working group). We will use these contacts to run an online survey (using the Lime survey software provided by the HU) to get a more quantitative analysis of the hardware makers workflows at an international level. We will analyse the results taking special attention to strategies that could facilitate the adoption of the tools created in the WP2 by the community.
+
+Importantly, we will analyse several hardware piece in details, how they were designed, shared and disseminated. We will complete the following list during the first phase of this WP with additional use cases.
 
 - The Airtrack system `r citep("10.1152/jn.00088.2016")` has been developped in 2016 in the Larkum lab and was re-built in a lab in the USA in 2018. We will analyse this relatively long process.
 - robofish `r citep(" 10.1098/rsbl.2020.0436")`
@@ -223,14 +227,26 @@ Expected outputs:
 
 #### a) Peer review system for hardware publication
 
+While datasets evaluation is very domain specific and often require the involvement of data curation specialists and/or automated verification of metadata models, the use of the FAIR principles `r citep("10.1038/sdata.2016.18")`has been a catalysator in the creation of data curation workflows. In contrast, research software peer review is an emerging field, where communities ( `r citet("10.5281/zenodo.2553043")`, JOSS, ISSN 2475-9066) have built their own standards and workflows, based on the GitHub platform. Similarly, OH communities have build evaluation principles for open source hardware.
+
 #### b) Publication system
 
->In addition, hese pathways are coming with specialised quality insurance mechansims. Data curation is following FAIR principles, originally developped by the FORCE11 coomunity `r citep("10.1038/sdata.2016.18")`, and software review are run on git platforms, for example in the journal of Open Source Software (JOSS, ISSN 2475-9066), following community standards.
 
-In addition to quality control, a publication system should provide recognition to the authors (or contributors) who worked on the project, a long term archive of the research results, a registration of the work (allowing people to find it), and awareness. 
+In addition to quality control, a publication system should provide recognition to the authors (or contributors) who worked on the project, a long term archive of the research results, a registration of the work (allowing people to find it), and awareness. In addition, usage rights needs to be clearly specified, as following the FAIR principles. Last but not least, a publication system for non-traditional research outputs should be easy to use and possibly get integrated in the workflow of the researchers.
 
-Registration and awareness depends on the use of a metadata model that is used in the targetted community. We want to expand the metadata model used for most data and software publication, i.e. the datacite model and/or [the schema.org model](https://schema.org/). This would allow for specific search and hardware discovery tools, that are in developement for datasets (see https://www.go-fair.org/implementation-networks/overview/discovery/).
+Registration and awareness depends on the use of a metadata model that is used in the targetted community. We want to expand the metadata model used for most data and software publication, i.e. the datacite model and/or [the schema.org model](https://schema.org/). This would allow for specific search and hardware discovery tools, similar to the tools in developement for datasets (see https://www.go-fair.org/implementation-networks/overview/discovery/).
 
+We will consider different tooling to provide long term archive of the hardware publication.
+
+, and which tool will be used will depend on the habits of the OH communities and the decision that will be taken during the project. We will  
+
+
+The ease of use
+We will collaborate with the universities libraries and/or other repository platforms to provide long term archives of the hardware documentation.  
+
+#### c) Practical approach
+
+We will run the hardware pieces chosen as use cases in the WP1 through the evaluation and publication process. This will allow us to refine the tools and demonstrate the efficiency of our approach. 
 
 ### WP3 Open education for hardware building
 
@@ -257,7 +273,8 @@ FU: software dev.
 
 We will actively seek for additional collaborators and international networks during the project. We will coordinate our work with the gathering of open source hardware to create a FORCE11 interest group, and/or a RDA working group.
 
-## Beschreibung der geplanten Maßnahmen zum Forschungsdatenmanagement und zur Publikations- strategie. Publikationen und Forschungsdaten sind kostenfrei zugänglich zu machen. (maximal eine Seite bzw. 3,500 Zeichen inkl. Leerzeichen)
+## Reseach data management plan and publication strategy
+<!---Beschreibung der geplanten Maßnahmen zum Forschungsdatenmanagement und zur Publikations- strategie. Publikationen und Forschungsdaten sind kostenfrei zugänglich zu machen. (maximal eine Seite bzw. 3,500 Zeichen inkl. Leerzeichen)--->
 
 This project will be run using an open research methodology, where data, results, discussion and ideas will be shared in an open repository on GIN (gin.g-node.org/), using a standard research folder organsation `r citep("10.25815/WCY6-M233")`. raw (or anonimised) datasets will be made available with a CC0 license upon collection, or as soon as legally possible. Data will be curated, and its analysis will be preformed using reproducible reports, in order to facilitate re-use. Upon publication, the whole repository will be archived and published via the GIN platform.
 
