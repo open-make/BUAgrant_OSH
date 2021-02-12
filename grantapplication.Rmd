@@ -231,16 +231,33 @@ Open!Make’s working program consists of three work packages (WPs) building on 
 
 The overall methodology of Open!Make consists of three stages, whereby each stage is designed to leverage external involvement espousing the participatory nature of the project’s research object. Each WP kicks off a new stage of the project from (1) the research phase, to (2) the Prototyping and testing phase, to (3) the impact maximization phase, each lasting nine months.
 
-### WP1, Research phase [M1 - M9]
+Along the project, we will use three specific hardware as use case. We will first analyse how they were documented and disseminated, then use them to test the evaluation and publication system and finally publish a peer reviewed, open FAIR  version of these three hardware: 
+
+1. The Airtrack system (HUB, `r citet("10.1152/jn.00088.2016")`) has been developed in 2016 in the Larkum lab and was has been rebuilt several times in the USA (Adam Kepec and in Dieter Jaeger),  Australia (Lucy Palmer), in Germany (Kremkow) and in United Kingdom (Andy King). We will analyze the process and especially differences between the five dissemination.
+2. robofish `r citep(" 10.1098/rsbl.2020.0436")`
+3.  open imaging
+
+
+### WP1, L:TUB, P:HUB, FUB Research phase [M1 - M9]
+
+**Methodology**
 
 This phase will build a shared knowledge base for the project through a mixed-method approach of data triangulation. On the one hand, an interview campaign and an online survey will deliver a better understanding of opportunities and shortcomings of open, FAIR hardware practices in academia. In particular, we will find and contact researchers (half of them Berlin-based researchers of any discipline) who are active or interested in open, FAIR hardware development and conduct semi-structured interviews. The survey will focus on issues such as process and tools used/desired, researcher needs, pain points and their habits in the documentation and dissemination of the hardware. On the other hand, we will carry out ethnographic research on relevant use cases of several hardware pieces that are being developed in the partners labs / workshops, how they were designed, documented and disseminated (see below). Cross-analysis of the complementary datasets will allow a balanced picture and crystallization of findings.
 
 We will also seek for additional partners and grow an international networks of OH enthusiasts (the gathering of open source hardware), scholarly communication professionals (FORCE11), and data management specialists (RDA).
 
-**Use cases:**
-1. The Airtrack system `r citep("10.1152/jn.00088.2016")` has been developed in 2016 in the Larkum lab and was has been rebuilt several times in the USA (Adam Kepec and in Dieter Jaeger),  Australia (Lucy Palmer), in Germany (Kremkow) and in United Kingdom (Andy King). We will analyze the process and especially differences between the five dissemination.
-2. robofish `r citep(" 10.1098/rsbl.2020.0436")`
-3.  open imaging
+**Activities**
+
+T1.1 Survey (HUB)
+
+T1.2 Interviews (TUB)
+
+T1.3 Ethnographic study (FUB)
+
+T1.4 Transforming needs into technical requirements
+
+D1.1 requirements analysis --> D1.1
+
 
 **Expected outputs:**
 - FORCE11 interest group
@@ -249,9 +266,18 @@ We will also seek for additional partners and grow an international networks of 
 - dataset of survey analysis
 - dataset of use cases analysis
 
+Prototyping and testing phase [M9 - M18]
 
-### WP2, Prototyping and testing phase [M9 - M18]
+### WP2, L:FUB, P:HUB, TUB
+T2.1 Architecture analysis (FUB)
 
+T2.2 Prototyping of evaluation system (TUB)
+
+T2.3 Publication and citation extension (HUB)
+
+T2.4 Testing of feature frozen version (FUB)
+
+D2.1 Prototyped and tested system
 
 #### a) Evaluating open FAIR Hardware
 
@@ -288,7 +314,20 @@ We will run the hardware pieces chosen as use cases in the WP1 through the evalu
 - At least three hardware published as use cases
 - Report on the basic infrastructure requirements to enable documentation, evaluation and publishing of open, FAIR hardware as an open infrastructure project.
 
-### WP3, Impact maximisation phase [M15 - M24]
+### WP3, Impact maximisation phase (HUB) [M12 - M24]
+
+T3.1 Organise open book writing, (guidelines for OS hardware making) (HUB)
+
+T3.2 How-to Documentation (FUB) 
+
+T3.3 Technical standardisation (TUB)
+
+T3.4 Organisation of an international scientific and practitioners workshop/conference (HUB)
+
+T3.5 Publishing of research papers (FUB)
+
+T3.6 "Placeholder task" how to adapt for campus IT infrastracture (HUB)
+
 
 We will partner closely with the Open Hardware Maker Program to provide open education resources for hardware making. We will complete their knowledge with specific problems and best practices that we will identify during
 the analyses of workflows and use cases in WP1, and during the evaluation of hardware in WP2.
@@ -337,6 +376,8 @@ Our objectives can only be achieved with the expertise of the three labs involve
 
 Discussions and exchanges between the partners is primordial in this project, as each team is bringing a different expertise, each of them being necessary for the success of this ambitious project. We 
 We will also actively seek for additional collaborators and expertise, as well as international networking during the project. We will for instance coordinate our work with the gathering of open source hardware to create a FORCE11 interest group, and/or a RDA working group at the beginning of the project, in order to obtain additional feedback and visibility.
+
+
 
 ## Reseach data management plan and publication strategy
 <!---Beschreibung der geplanten Maßnahmen zum Forschungsdatenmanagement und zur Publikations- strategie. Publikationen und Forschungsdaten sind kostenfrei zugänglich zu machen. (maximal eine Seite bzw. 3,500 Zeichen inkl. Leerzeichen)--->
