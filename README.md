@@ -5,7 +5,8 @@ We will start to work on this project in september 2021. Stay tuned: more inform
 
 # BUA call open science and research quality
 
-We have prepared a grant application for this call. After working in this repository, and hackmd.io, we realised the text had to be copy-pasted into their form, and we therefore continued to work on it via a googledoc document. The pdf coming out of the application procedures is visible here (Jochem R Berlin University Alliance Forschungsqualitt und Open Science.pdf), some administrative issues will still be modified.
+We have prepared a grant application for this call. After working in this repository, and hackmd.io, we realised the text had to be copy-pasted into their form, and we therefore continued to work on it via a googledoc document. The pdf coming out of the application procedures is visible 
+in the file named [Jochem R Berlin University Alliance Forschungsqualitt und Open Science.pdf](Jochem%20R%20Berlin%20University%20Alliance%20Forschungsqualitt%20und%20Open%20Science.pdf) (some administrative issues will still be modified).
 
 Anyone is welcome to contact us via issues here. We will get a better organised contribution pathway if we get the grant :)
 
