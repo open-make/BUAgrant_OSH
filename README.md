@@ -1,6 +1,6 @@
 # We got the grant !
 
-We will start to work on this project in september 2021. Stay tuned: more information is coming!
+We will start to work on this project in september 2021. See https://github.com/open-science-promoters/open.make-projmanag
 
 
 # BUA call open science and research quality
