@@ -1,3 +1,34 @@
+---
+title: "Open!Make: Towards open and FAIR hardware"
+subtitle: "24 months project starting in 04/2021"
+06/2021author:
+  - name: Prof. Dr.-Ing. Roland Jochem
+    email: roland.jochem@tu-berlin.de
+    address1: Chair of Quality Science, Institute for Machine Tools
+    address2: and Factory Management, Technische Universität Berlin (TUB)
+    phone: +49 30 314 22005.
+  - name: Prof. Matthew Larkum
+    email: matthew.larkum@hu-berlin.de
+    address2: Institute of Biology, Humboldt-Universität zu Berlin (HUB).
+    phone: +49 30 450 539 152.
+  - name: Prof. Tim Landgraf
+    email: tim.landgraf@fu-berlin.de
+    address1: Dahlem Center for Machine Learning and Robotics,
+    address2:  Institute of Computer Science, Freie Universität Berlin (FUB)
+    phone: +49 30 838 75114.
+    
+papersize: a4
+linestretch: 1.2
+fontsize: 12pt
+links-as-notes: true
+output:
+  pdf_document:
+    template: ../my-template.tex
+    latex_engine: xelatex
+    keep_tex: true
+mainfont: Times New Roman  
+---
+
 # Out and Incoming Fellowship Program
 
 # 1. Incoming Fellowship 1- Guidance for researchers
