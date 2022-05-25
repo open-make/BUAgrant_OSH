@@ -31,6 +31,9 @@ mainfont: Times New Roman
 
 # Out and Incoming Fellowship Program
 
+[![hackmd-github-sync-badge](https://hackmd.io/aY_OZ33pQ_6ivGoOqEqQcg/badge)](https://hackmd.io/aY_OZ33pQ_6ivGoOqEqQcg)
+
+
 # 1. Incoming Fellowship 1- Guidance for researchers
 
 The open.make project would like to give Dr. Julieta Arancio the opportunity to work inside the open.make project for three months. She will be mentoring the creation of "guidelines on the documentation, evaluation and publishing of open, FAIR hardware" (task T3.1 of the open.make application).
@@ -38,9 +41,11 @@ In addition, Dr Arancio will lead the preparation and implementation of a worksh
 Dr Arancio is one maintainer of the open hardware makers program, a mentorship program aiming at training researchers in the design of open source hardware projects. She is therefore an expert in this domain.
 She is presently working as a post doc at the Drexel University and University of Bath.
 
-Dr Arancio has been in contact with the open.make team since the grant application process, where her expertise helped designing the scope of this project. We expect to continue our collaboration beyond this project, with the possiblities to develop closer collaborations.
+Dr Arancio has been in contact with the open.make team since the grant application process, where her expertise helped designing the scope of this project.
+We expect to continue our collaboration beyond this project, with the possiblities to develop closer collaborations.
 
-The work of Dr. Arancio will make a huge difference in the quality and reach of the guidance document, as she brings years of experience in open source hardware project design, documentation and publication, as well as a large international network of open source hardware enthusiasts.
+The work of Dr. Arancio will make a huge difference in the quality and reach of the guidance document. 
+She brings years of experience in open source hardware project design, documentation and publication, as well as a large international network of open source hardware enthusiasts.
 
 \newpage
 
