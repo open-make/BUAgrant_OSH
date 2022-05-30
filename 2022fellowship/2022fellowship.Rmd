@@ -29,25 +29,64 @@ output:
 mainfont: Times New Roman  
 ---
 
-# Out and Incoming Fellowship Program
+# LOIs - Out and Incoming Fellowship Program (A4 one-pagers from host dep. to SC of Obj. 3 by Mon., 30 May)
 
 [![hackmd-github-sync-badge](https://hackmd.io/aY_OZ33pQ_6ivGoOqEqQcg/badge)](https://hackmd.io/aY_OZ33pQ_6ivGoOqEqQcg)
 
+# 1. Incoming grant 1- Standardisation for collaboration on open source hardware in academia (6 months)
 
-# 1. Incoming Fellowship 1- Guidance for researchers
+Dear Steering Committee members of the Objective 3 at the BUA,
 
-The open.make project would like to give Dr. Julieta Arancio the opportunity to work inside the open.make project for three months. She will be mentoring the creation of "guidelines on the documentation, evaluation and publishing of open, FAIR hardware" (task T3.1 of the open.make application).
+For the opportunity of an incoming fellowship, we would like to kindly express our interest for inviting [name], currently working as doctoral researcher at G-SCOP labs in Grenoble, from Sep. 2022 to Feb. 2023 (6 months) to extend the project Open.Make with highly complementary research activities in the direction of standardisation for collaboration on open source hardware (OSH) in academia, with the Chair of Quality Science, Technische Universität Berlin (TUB-QW) as host institution.
+
+**Gegenstand und Ziel des Aufenthalts (Schwerpunkt)**
+The project idea is to determine how standardisation could facilitate OSH technical developments and practices in academia. A good documentation is a prerequisite to any open-source endeavour and, in order to facilitate the process of creating, maintaining and using the documentation, standardisation is an important aspect to consider. The term documentation includes all the information related to the design, manufacturing, operation and disposal of the system. This information must be accessible, findable and understandable for anyone who wishes to participate [in order to ensure open science practices and quality outcome of research hardware?].
+
+**Mehrwert für das Projekt vor allem in Bezug auf Nachhaltigkeit**
+Hence, a documentation standard, in line with the already existing DIN SPEC 3105 initiative (link), will include the structure and the requirements for content depending on the objectives of the creators. The motivation to open a project and publish the design can be diverse and dependent on the dissemination and exploitation strategy adopted by the project owner. Therefore, there is a challenge today in providing a structure that allows the flexibility and variability of the documentation needs to be considered while ensuring completeness, usability and discoverability of the content.
+
+**Beschreibung der interessanten Expertise / "Background"**
+Within the EU project OPENNEXT coordinated by TUB-QW, we have been studying company-community collaboration where G-SCOP provided guidelines to SMEs and makers to facilitate documentation for OSH development which can be reoriented for academia as part of the standardisation works and integrated with Open.Make efforts to create a publication platform [to be clarified]. [name] *brings in expertise on product design and development for frugal innovation and DIY practices which is highly relevant* [to be clarified].
+
+- Kurze Auflistung von APs als 2-3 kurze Stichpunkte mit jeweiliger Dauer
+APs tbd...
+
+**Erwünschte Mittel (Personal- & Sachmittel)**
+For the fellowship, we would suggest a budget of 6 person months (E13) + 1.050 EUR non-personal direct costs (travel costs of 600 EUR for 2x round-trip travels from Grenoble to Berlin; and publication costs of 450 EUR for a conference paper contribution for the 24th International Conference on Engineering Design in Bordeaux).
+
+# 2. Incoming Fellowship 2- Guidance for researchers (3 months)
+
+Dear Steering Committee members of the Objective 3 at the BUA,
+
+For the opportunity of an incoming fellowship, we would like to kindly express our interest for inviting Dr Julieta Arancio, presently working as a post doc at the Drexel University and guest researcher at the University of Bath, from Mar. 2023 to Jun. 2023 (3 months) to extend the project Open.Make with highly complementary research activities in the direction of practice implementations for the creation of "guidelines on the documentation, evaluation and publishing of open, FAIR hardware" (task T3.1 of the Open.Make proposal) with the Chair of Quality Science, Technische Universität Berlin (TUB-QW) as host institution.
+
+**Gegenstand und Ziel des Aufenthalts (Schwerpunkt)**
+Dr Arancio is one maintainer of the Open Hardware Makers (OHM) program, a mentorship program aiming at training researchers in the design of open source hardware (OSH) projects. She is therefore an expert in this domain. They would be very interested to institutionalise the program as part of the fellowship by the Obj. 3 of the BUA and going forward. In addition, Dr Arancio will lead the preparation and implementation of a workshop for BUA researchers, where open source hardware principles and practices will be taught.
+
+**Mehrwert für das Projekt vor allem in Bezug auf Nachhaltigkeit**
+Dr Arancio has been in contact with the Open.Make team since the grant application process, where her expertise helped designing the scope of the project. We expect to continue our collaboration beyond this project, with the possibilities to develop closer collaborations in the future. The OHM program is currently conducting their second cohort with applicants and would be enabled through the fellowship for Dr Arancio to conduct the third cohort. This would allow to further improve a dedicated curriculum which supports participants of the OHM program as they progress towards making their projects open and will be integrated with Open.Make findings as well.
+
+**Beschreibung der interessanten Expertise / "Background"**
+The work of Dr. Arancio will make a huge difference in the quality and reach of the above-mentioned guidance document. With a background in environmental science, she brings years of experience in open source hardware movement in the Global South (topic of her completed PhD thesis), project design, documentation and publication, as well as a large international network of open source hardware enthusiasts.
+
+- Kurze Auflistung von APs als 2-3 kurze Stichpunkte mit jeweiliger Dauer
+APs tbd...
+
+**Erwünschte Mittel (Personal- & Sachmittel)**
+For the fellowship, we would suggest a budget of 3 person months (E14) + 1.550 EUR non-personal direct costs (500 EUR travel costs for 1x round-trip travels from Bath to Berlin; and 1.050 EUR honorariums for expert jury members for the 3rd cohort of the OHM program).
+
+
+<!--The open.make project would like to give Dr. Julieta Arancio the opportunity to work inside the open.make project for three months. She will be mentoring the creation of "guidelines on the documentation, evaluation and publishing of open, FAIR hardware" (task T3.1 of the open.make application).
 In addition, Dr Arancio will lead the preparation and implementation of a workshop for BUA researchers, where open source hardware principles and practives will be taught.
-Dr Arancio is one maintainer of the open hardware makers program, a mentorship program aiming at training researchers in the design of open source hardware projects. She is therefore an expert in this domain.
+Dr Arancio is one maintainer of the open hardware makers program, a mentorship program aiming at training researchers in the design of open source hardware projects. She is therefore an expert in this domain. They would be very interested to institutionalise the program as part of the fellowship by the Obj. 3 of the BUA and going forward [to be clarified].
 She is presently working as a post doc at the Drexel University and University of Bath.
 
-Dr Arancio has been in contact with the open.make team since the grant application process, where her expertise helped designing the scope of this project.
-We expect to continue our collaboration beyond this project, with the possiblities to develop closer collaborations.
+Dr Arancio has been in contact with the open.make team since the grant application process, where her expertise helped designing the scope of the project.
+We expect to continue our collaboration beyond this project, with the possiblities to develop closer collaborations in the future.
 
 The work of Dr. Arancio will make a huge difference in the quality and reach of the guidance document. 
-She brings years of experience in open source hardware project design, documentation and publication, as well as a large international network of open source hardware enthusiasts.
+She brings years of experience in open source hardware project design, documentation and publication, as well as a large international network of open source hardware enthusiasts.-->
 
-\newpage
 
 <!--
 - an einem für das Objective relevanten Thema zu forschen
@@ -59,9 +98,40 @@ content:
 - führt in Absprache mit der gastgebenden Einrichtung Veranstaltungen durch
 - Die gastgebende Einrichtung ergibt sich in Abhängigkeit vom Thema und der organisationalen Verankerung der das Thema bearbeitenden Arbeitsgruppe.
 -->
-# 2. Incoming grant 2- Standardisation in hardware documentation
+
+content:
+- Nennung des Forschers, für den die Einladung erwünscht ist, der Gast-Institution und avisierter Zeitraum 
+03/2023 - 06/2023, FG QW (TU Berlin)
+- Gegenstand und Ziel des Aufenthalts erläutert werden (Schwerpunkt)
+- Mehrwert für das Projekt vor allem in Bezug auf Nachhaltigkeit (Ergebnis(se))
+- kurze Beschreibung der interessanten Expertise / "Background"
+- Kurze Auflistung von APs als 2-3 kurze Stichpunkte mit jeweiliger Dauer
+- Erwünschte Mittel (PMs + Sachmittel)
+
 
 # 3. Outgoing grant -  Open hardware and the TU Delft open science strategy
+
+
+Dear Steering Committee members of the Objective 3 at the BUA,
+
+For the opportunity of an outgoing fellowship, we would like to kindly express our interest for the stay of one of our collaborator at the TU delft. The TU delft has a strong reputation for its open science practices and has built an innovative open research hardware strategy. This exchange would be very benificial for the Open.Make project, as well as for the openX initiative of the BUA. We would like Mik Schutte (who will soon be hired on the Open.Make position of the HU) would travel to Delft. 
+
+**Gegenstand und Ziel des Aufenthalts (Schwerpunkt)**
+The project idea is to strengthen our colloboration with the Delft team (especially Dr. de Voss and Dr. Ilamparuthi). This opportunity would be used to add an observational study of their hardware production work (WP1), but also to observe their community building practices and how they work toward the adoption of open source hardware practices inside the university. 
+
+**Gastinstitution**
+
+The TU Delft is well known for its pioneering approaches in research data management, being one of the first universities to hire data stewards. Its strategy toward open science is well regonized and they were (to our knowledge) the first university to hire a research hardware ingineer, which job is to facilitates the production of open source hardware at the TU delft.  
+
+**Mehrwert für das Projekt vor allem in Bezug auf Nachhaltigkeit**
+We believe that  the knowledge gained through this close exchange with the TU Delft would be highly valuable not only for the Open.Make project, but also for the openX initiative of the BUA. The TU Deflt has a pioneering approach to the development of open source hardware practices and it would be very interesting to learn from their experience to build a BUA strategy.
+
+
+
+**Erwünschte Mittel (Personal- & Sachmittel)**
+For the fellowship, we would suggest a budget of 6x160 1.200 EUR travel costs (3x round-trip travels from Delft to Berlin) and accomodation costs of XXX for one month stay.
+
+
 
 - mit an anderen Einrichtungen etablierten Strukturen oder Prozessen vertraut zu machen
 - aktuell an der Entwicklung und insbesondere Implementierung von Prozessen und / oder Strukturen arbeiten
