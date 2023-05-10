@@ -112,6 +112,7 @@ Kurzbeschreibung des Vorhabens unter Zuordnung zu einem in Positioning of the pr
 Based on accounts from 15 interviews with representatives of a diverse set of leading open hardware projects from academia all over the world, the Open.Make team gathered user stories and is deriving critical needs for hardware-specific solutions for open source development and sharing. The project has been collecting the needs of engineers and will confront these needs with experts in scholarly communication and infrastructure builders in 2023. The community will design a road-map for the creation of a hardware publication ecosystem. A prototype will be tested at the end of 2023. Transferring this prototype into a scalable product will allow the integration of a larger community of users and ultimately make a recognized path for hardware publication and the recognition of maker’s work in academia.
 
 ## Open hardware guidelines
+
 The Open.Make incoming fellowships will allow the team to write comprehensive guidelines for the management of open research hardware development, documentation and publication. It will also bring knowledge from the open maker mentorship program to the team. This knowledge will be used to design different training programs inside the BUA.
 International interactions
 The project Open.Make has been highly community-oriented with the foundation of the Research Data Alliance (RDA) „FAIR Principles for Research Hardware Interest Group“ (endorsed by the RDA in 2022), the co-organisation of the global unconference Gathering for Open Science Hardware (GOSH) in 2022 in Panama. The Open.Make team has been tightening its relation with the TU Delft Open Hardware Community and its managers. The international network is a prerequisite for the recognition of the created implementation solutions in an international context. These links will be strengthened and new connections may be created.
@@ -122,7 +123,7 @@ The project Open.Make has been highly community-oriented with the foundation of 
 Positioning of the project in relation to the international state-of-the-art (one page max.)
 --->
 
-## Open hardware institutionalisation
+## Open hardware institutionalization
 
 We have strong connection to the TU Deflt that has been a leading institution for the implementation of open science practices, in particular in terms of open hardware. We had the possibility to observe their work and strategy (notably thanks to an outgoing fellowship) and will build on this experiences to adapt the strategy to the BUA context. Quite recently, they were the first university to open a position of open hardware engineer, dedicated in the development of an open hardware community at the university level. They also provided a specific curriculum (the open hardware academy), which ran for the first time in 2022. 
  
@@ -147,11 +148,16 @@ On the other hand, tooling developed for the publication or achival of software 
 
 The project team anticipates gathering support from different institutions in the four universities, especially libraries and technology centers.
 
-WP1: Community building is a challenging task. The team will overcome them by implementing open source strategies (easy onboarding, code of conduct, explicit governance) as well as by testing and documenting different strategies in order to create an active, safe and inclusive space. It will also connect with other open science community initiatives in Berlin, especially the Open Science Working Group of the FU.
+## WP1
 
-WP2: The team will develop both a university training program over one semester and some short training workshops as this latter format might be better accepted by maker communities. In addition, developed resources will be published as open education resources that can be taken up by anyone interested and modified for other target groups.
+Community building is a challenging task. The team will overcome them by implementing open source strategies (easy onboarding, code of conduct, explicit governance) as well as by testing and documenting different strategies in order to create an active, safe and inclusive space. It will also connect with other open science community initiatives in Berlin, especially the Open Science Working Group of the FU.
 
-WP3: Since the technical and cultural requirements of a hardware publication platform are still being explored, obstacles are difficult to foresee. However, we are confident that the expertise of the Open.Make team and BUA partners, combined with external help from the Open.Make network developed in WP4 will overcome challenges. In addition, experience gathered inside the Open Hardware Observatory (OHO) and Open Source Ecology Germany hardware review attempts will be additional resources to build the platform.
+## WP2
+
+The team will develop both a university training program over one semester and some short training workshops as this latter format might be better accepted by maker communities. In addition, developed resources will be published as open education resources that can be taken up by anyone interested and modified for other target groups.
+
+## WP3
+ Since the technical and cultural requirements of a hardware publication platform are still being explored, obstacles are difficult to foresee. However, we are confident that the expertise of the Open.Make team and BUA partners, combined with external help from the Open.Make network developed in WP4 will overcome challenges. In addition, experience gathered inside the Open Hardware Observatory (OHO) and Open Source Ecology Germany hardware review attempts will be additional resources to build the platform.
 
 A software developer experienced in open source software and hardware development (Moritz Maxeiner) will build the technical infrastructure needed to publish hardware, in collaboration with the university libraries and other actors that will be invited during the second Open.Make workshop in September/October 2022 (IT and infrastructure specialists). This work will also be expanded by external software development resources and follow the user needs discovered during the first phase of the Open.Make project. 
 
@@ -167,8 +173,11 @@ This leads us to propose the following architecture for the system: At the outer
 
 
 
-WP4: Large communities tend to advance slowly, and the major obstacle in this last work package is time constraint. That is the reason why the senior scientist position is envisaged to cover the maximal funding period.
+## WP4
 
+Large communities tend to advance slowly, and the major obstacle in this last work package is time constraint. That is the reason why the senior scientist position is envisaged to cover the maximal funding period.
+
+We indeed have direct contact to the newly created Center for the Science of Materials at the HU, as Prof. Larkum is a member of the center. On the other hand, we will connect with medical device development project. There are already highly detailed guidelines for the development of medical devices, which can potentially inspire our quality control for research hardware system. Also, we will connect to initiatives building open source hardware in the medical domain. A direct connection to the TEF-Health project will be established via Prof. Ritter (Charité).Our work will continue to be completely open sourced from the start, and other communities outside Berlin will be encouraged to follow the project's steps and implement open hardware strategies in Germany and beyond.
 
 # Information on potential practical use of results
 
@@ -197,12 +206,7 @@ By continuing to interconnect through the BUA, e.g. through workshops and events
 
 Libraries, institute workshops (for instance the Feinwerktechnik, a workshop service at FUB), graduation schools, IP officers, RDM offices, and researchers will be involved. As mentioned above, the team hopes to utilise the BUA network to find interested parties inside the four partner organisations, especially for WP1. This network will then be leveraged to make adoption of WP2&3 in the BUA. This work will provide the ground knowledge and practical recommendation for a future implementation of an open hardware strategy in Berlin.
 
-# Concept for collaboration with project partners
 
-
-<!---
-Information on potential practical use of results; concept of implementation and dissemination of potential applications; exploitation plan for academic and non-academic users; description of rele- vant stakeholders (i.e. target groups / disciplines / structural units within BUA partners) and their in- volvement (three pages max.)
---->
 
 # Concept for collaboration with project partners
 <!---
@@ -298,6 +302,7 @@ In addition, we will build new networks with material science, which face simila
 
 Community building activities and teaching formats, combined with an internationally recognized infrastructure to document and communicate research hardware, will lay the foundation for and pioneer a “center of competence” for open hardware in the BUA.
 
+\newpage
 
 # Relation to Open make I
 <!---
@@ -335,6 +340,7 @@ System for the quality control and dissemination of open hardware have been emer
 
 On the other hand, tooling developed for the publication or achival of software are in development (REF:https://doi.org/10.48550/arXiv.2201.09015), and we are for instance taking contact with the HERMES team, which is developing tools for the archival of software into data publication platforms that are often used in university libraries (Dataverse and InvenioRDM, the latter being the software running Zenodo). Especially, the automatic transfert of specific metadata types is an interesting and pioneering approach for software publication. 
 
+\newpage
 
 # Work schedule
 <!---
@@ -343,13 +349,17 @@ On the other hand, tooling developed for the publication or achival of software 
 
 The project team anticipates gathering support from different institutions in the four universities, especially libraries and technology centers.
 
-WP1: Community building is a challenging task. The team will overcome them by implementing open source strategies (easy onboarding, code of conduct, explicit governance) as well as by testing and documenting different strategies in order to create an active, safe and inclusive space. It will also connect with other open science community initiatives in Berlin, especially the Open Science Working Group of the FU.
+## WP1:
+
+Community building is a challenging task. The team will overcome them by implementing open source strategies (easy onboarding, code of conduct, explicit governance) as well as by testing and documenting different strategies in order to create an active, safe and inclusive space. It will also connect with other open science community initiatives in Berlin, especially the Open Science Working Group of the FU.
 
 This will involves the presence of a research hardware engineer (M.Sc. Moritz Maxeiner, FUB) to give specific advice on hardware documentation and the “open” and community aspects of building open research hardware. This may take different forms, like a central workshop, pop-up workshop, or advice on site. 
 
-WP2: The team will develop both a university training program over one semester and some short training workshops as this latter format might be better accepted by maker communities. In addition, developed resources will be published as open education resources that can be taken up by anyone interested and modified for other target groups.
+## WP2:
 
-WP3:
+ The team will develop both a university training program over one semester and some short training workshops as this latter format might be better accepted by maker communities. In addition, developed resources will be published as open education resources that can be taken up by anyone interested and modified for other target groups.
+
+## WP3:
 
 This work will also seek for collaboration and advice in technical infrastructure specialists in Berlin and beyond, especially in university libraries. A workshop in the coming open science conference will help us define the ecosystem more broadly. 
 This consists in the production or extension of different tools that will facilitate the edition of the documentation, including hardware specific metadata to facilitate discovery, test automatically  for compliance with best practices, archive the documentation into a citable version, and create a extra trustworthy quality control (for instance by peer review).
@@ -372,7 +382,7 @@ This leads us to propose the following architecture for the system: At the outer
 
 
 
-WP4:
+## WP4:
  Large communities tend to advance slowly, and the major obstacle in this last work package is time constraint. That is the reason why the senior scientist position is envisaged to cover the maximal funding period.
 
 . We indeed have direct contact to the newly created Center for the Science of Materials at the HU, as Prof. Larkum is a member of the center. On the other hand, we will connect with medical device development project. There are already highly detailed guidelines for the development of medical devices, which can potentially inspire our quality control for research hardware system. Also, we will connect to initiatives building open source hardware in the medical domain. A direct connection to the TEF-Health project will be established via Prof. Ritter (Charité).
