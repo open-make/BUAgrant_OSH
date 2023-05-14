@@ -7,16 +7,21 @@ author:
     address1: Chair of Quality Science, Institute for Machine Tools
     address2: and Factory Management, Technische Universität Berlin (TUB)
     phone: +49 30 314 22005.
-  - name: Prof. Matthew Larkum
+  - name: Prof. Matthew Larkum, PhD
     email: matthew.larkum@hu-berlin.de
     address2: Institute of Biology, Humboldt-Universität zu Berlin (HUB).
     phone: +49 30 450 539 152.
-  - name: Prof. Tim Landgraf
+  - name: Prof. Dr. Tim Landgraf
     email: tim.landgraf@fu-berlin.de
     address1: Dahlem Center for Machine Learning and Robotics,
     address2:  Institute of Computer Science, Freie Universität Berlin (FUB)
     phone: +49 30 838 75114.
-    
+  - name: Prof. Dr. med. Petra Ritter
+    email: petra.ritter@bih-charite.de
+    address1: Berlin Institute of Health & Dept. of Neurology
+    address2: Charité University Hospital Berlin (CUB)
+    phone: +49 30 450 560 005
+
 papersize: a4
 linestretch: 1.2
 fontsize: 12pt
@@ -54,49 +59,48 @@ mainfont: Times New Roman
 --->
 
 ## Summary
+The open science hardware community has identified the lack of recognition of research hardware developers and their work as a main bottleneck towards broader adoption of open hardware. Open.Make II aims to address this issue by promoting the recognition of research hardware as a valuable research output. In this project, we will focus on bridging the gap across disciplines that involve the use of hardware, ranging from biology to arts to machine tools. Our primary objective is to lay the foundation for a center of competence for open hardware in Berlin that serves as a hub, integrating and connecting expertise within and beyond BUA. By fostering the recognition of research hardware as a research output, both nationally and internationally, we aim to create a vibrant and inclusive community. This will effectively enhance inter-disciplinary collaboration and accelerate scientific progress.
 
-This project aims to set the foundations for a centre of competence (CoC) for open hardware in Berlin, integrating and connecting expertise within and beyond BUA, and fostering the recognition of research hardware as a research output, nationally and internationally. 
+Building on the learnings from the Open.Make project, Open.Make II takes a socio-technical approach to cultivate a recognised community of professional open hardware developers and makers in the BUA. While Open.Make I primarily focused on understanding the requirements for open hardware improvements, our current endeavour builds upon that foundation by combining, consolidating, and improving the community's tools for documenting, reviewing, and archiving hardware developments. This technical foundation for an open ecosystem for hardware publication will be embedded into novel infrastructure of the centre of competence: we will provide support to the community through dedicated spaces, expert advice, structured educational programs, and extensive networking opportunities. 
 
-We will build on the learnings of the Open.Make project, taking a socio-technical approach to create a expert and recognized community of open hardware makers in the BUA. On one side, we will consider
- the technical aspect of documenting and disseminating hardware.
-On the other side,  we will work on the creation of tight relation between open hardware makers in the Berlin area, providing the community with space, advice, education, as well as networking opportunities. Eventually, we will see the emergence of recognition mechanisms for the open research hardware engineers.
+In conclusion, Open.Make II is poised to make a significant impact by addressing the recognition gap faced by research hardware developers. By building an open hardware community within the BUA, we will bring together diverse expertise, create opportunities for collaboration, and drive the recognition of research hardware as a valuable research output. Through our inclusive approach and focus on building robust recognition mechanisms, we aim to empower open hardware engineers, foster interdisciplinary collaboration, and advance scientific research on a national and international scale.
 
- This work will be strengthened through the interaction with existing international partners and the development of new partnerships in Berlin and in Germany, notably in the directions of open materials and medical hardware.
 
-The open science hardware community has identified the lack of recognition of research hardware developers and their work as a main bottleneck towards broader adoption. Open.Make II will promote the recognition  of research hardware as a valuable research output. In this respect, every discipline involving the use of hardware, especially non-commercial hardware, is addressed by this project (e.g. from biology to arts to machine tools).
 
 ## General context 
 
-Open access publishing, open data, and free and open source software have become important pillars of responsible research and innovation (RRI), an approach that intends to maximize the integrity and impact of research. The use of the FAIR principles (Findable, Accessible, Interoperable and Reusable) to promote the publication of quality data, and the recognition of data sharing as a valuable research task has helped in the development of new research plicies . In reture, the recent advances in these policies and changes in mandates from research funders have been successful in promoting greater adoption of open access to publications and data in science. Similarly, we see a larger recognition of the work of research software engineers who publish their work open source . In this context, the advocacy work of communities of practice (including academics, citizen scientists, entrepreneurs, artists and teachers) is also pushing towards the adoption of open hardware in research. Mostly represented by the Gathering for Open Science Hardware (GOSH) ^[https://forum.openhardware.science] and the Research Data Alliance interest group “FAIR principles for research hardware ” ^[ https://www.rd-alliance.org/groups/fair-principles-research-hardware]), these efforts aim to extend open science to include FAIR and open hardware. 
+Open access publishing, open data, and free and open source software have become important pillars of responsible research and innovation (RRI), an approach that intends to maximize the integrity and impact of research. The use of the FAIR principles (findable, accessible, interoperable and reusable) to promote the publication of quality data, and the recognition of data sharing as a valuable research task has helped in the development of new research policies . In return, the recent advances of these policies and changes in mandates from research funders have been successful in promoting greater adoption of open access to publications and data in science. Similarly, we see a larger recognition of the work of research software engineers who publish their work open source. In this context, the advocacy work of communities of practice (including academics, citizen scientists, entrepreneurs, artists and teachers) is also pushing towards the adoption of open hardware in research. Mostly represented by the Gathering for Open Science Hardware (GOSH) ^[https://forum.openhardware.science] and the Research Data Alliance interest group “FAIR principles for research hardware ” ^[ https://www.rd-alliance.org/groups/fair-principles-research-hardware]), these efforts aim to extend open science to include FAIR and open hardware. 
 
-Open hardware was first recognized as a pillar of open science strategies in the UNESCO Open Science recommendation in 2021 ^[https://en.unesco.org/science-sustainable-future/open-science/recommendation]. This global consultation effort harmonized definitions of open science. Itprovides guidance towards institutionalization or open research practices. Researchers worldwide are increasingly producing and sharing open science hardware designs. Fast-paced research requires highly customisable instruments, with patents slowing down collaborative innovation. As a result, the interest in methods and tools to better document and share hardware designs is growing. Moreover, FAIR and open hardware presents an opportunity for new career pathways and an alternative to traditional intellectual property rights practices, amplifying the impact of academic research in society.
+Open hardware was first recognized as a pillar of open science strategies in the UNESCO Open Science recommendation in 2021 ^[https://en.unesco.org/science-sustainable-future/open-science/recommendation]. This global consultation effort harmonised definitions of open science. It provides guidance towards institutionalisation of open research practices. Researchers worldwide are increasingly producing and sharing open science hardware designs. Fast-paced research requires highly customisable instruments, with patents slowing down collaborative innovation. As a result, the interest in methods and tools to better document and share hardware designs is growing. Moreover, FAIR and open hardware presents an opportunity for new career pathways and an alternative to traditional intellectual property rights practices, amplifying the impact of academic research in society.
 
 ## Central project goals
 
+
+
 #### Objective 1: Foster a BUA open hardware community
 
-We will adapt the strategy followed by the TU Delft to build an open hardware community  ^[https://www.tudelft.nl/en/open-science/about/about/open-hardware] within the BUA context. We will first identify and connect to the Berlin actors aligned with the project’s mission, either relevant in community building or in hardware production or dissemination: libraries, institute workshops, graduate schools, technology transfer officers, researchers at the universities, as well as different maker communities in Berlin.
+We will adopt the strategy followed by TU Delft to build an open hardware community  ^[https://www.tudelft.nl/en/open-science/about/about/open-hardware] within the BUA context. We will first identify and connect to the Berlin actors aligned with the project’s mission, either relevant in community building or in hardware production or dissemination: libraries, institute workshops, graduate schools, technology transfer officers, researchers at the universities, as well as different maker communities in Berlin.
 
-In a second step, we will test different approaches to build a community of hardware developers and makers within the BUA. We will provide workshop and collaboration space for the community, direct mentoring with a research hardware engineer (M.Sc. Moritz Maxeiner, FUB), training opportunities, and networking with both maker communities (Top Lab e.V., Motion Lab, Happy Lab, Verbund offener Werkstätten) and technology transfer officers at the BUA partners.
+In a second step, we will test different approaches to build a community of hardware developers and makers within the BUA. We will provide workshop and collaboration space for the community, direct mentoring with an experienced research hardware engineer (M.Sc. Moritz Maxeiner, FUB), training opportunities, and networking with both maker communities (Top Lab e.V., Motion Lab, Happy Lab, Verbund offener Werkstätten) and technology transfer officers at the BUA partners.
 
-We will develop and implement two different training and teaching approaches. We will adapt existing materials developed during Open.Make (6 ECTS course on open hardware at the TUB) to design teaching modules for BUA students, as well as short training formats for PhD students. This will result in the alignment of concrete needs and suitable formats for educational resources that can be later promoted, disseminated and referenced by the partners. These foundational materials will enable the development of  a future curriculum for the research hardware engineer role.
+We will develop and implement two different training and teaching approaches. We will adapt existing materials developed during Open.Make (6 ECTS course on open hardware at the TUB) to design teaching modules for BUA students, as well as short training formats for PhD students. This will result in the alignment of concrete needs and suitable formats for educational resources that can be later promoted, disseminated and referenced by the partners. These foundational materials will enable the development of a future curriculum for the research hardware engineer role.
 
 We will document the decision criteria, failures and successes of this work as it takes place. These reflections will inform a sustainability strategy to continue the mission of the BUA CoC for open hardware beyond the duration of the project.
 
 #### Objective 2: Foster research hardware publication and recognition
 
-Lack of recognition of open hardware work in academia is a socio-technical problem. In order to facilitate hardware documentation, publication and quality control, we will design an specific software platform based on requirements collected in the maker community and the institutional needs. At the same time, we will address the legitimacy issue and recognition mechanisms by interacting with  science funders, university tech transfer, and career evaluation officers.
+Lack of recognition of open hardware work in academia is a socio-technical problem. In order to facilitate hardware documentation, publication and quality control, we will design a specific software platform based on the requirements collected in the maker community, and institutional needs. At the same time, we will address the legitimacy issue and recognition mechanisms by interacting with science funders, university tech transfer offfices, and career evaluation counselors.
 As explained in the work schedule, we will build and adapt software tooling to facilitate the edition of the documentation (including generation of hardware-specific metadata to facilitate discovery), test automatically for compliance with best practices, create a citable and archived version, and add an extra layer of quality control. Finally, we will work on ways to deliver and consolidate the different tools into a user-friendly bundle.
 This work will also seek for collaboration and advice in technical infrastructure specialists in Berlin and beyond, especially in university libraries. A workshop in the coming open science conference in June 2023 will be a first instrumental step in the direction of defining the ecosystem more broadly and towards deriving a multi-perspective strategy. 
 
 Moreover, the project team will actively foster the adoption of FAIR and open hardware in the international context, mostly continuing the ongoing work inside the RDA and the GOSH community. This work will allow the recognition of hardware publication and certification processes internationally, which is necessary for the success and adoption of the hardware publication platform.
 
 In addition, we will build new local networks that will create use cases for the platform. Material scientists face similar issues in the documentation and discoverability of open materials. We will engage the newly created Center for the Science of Materials at the HU directly, as Prof. Larkum is a member of the center. This will broaden the scope of Open.Make and create further exploitation potential.
-Medical devices are driving a significant volume of work in open hardware. e will connect with medical device projects like the European TEF-Health initiative project ^[ https://www.tefhealth.eu] via Prof. Ritter at the Charité) and the OpenLab MedTec project led by PTB in Berlin. Documentation work on medical devices is advanced and can inform open hardware quality control and data sharing processes, as we learned during Open.Make by observing the VentMon project ^[ https://www.pubinv.org/project/ventmon/]).
+Medical devices are driving a significant volume of work in open hardware. We will connect with medical device projects like the European Testing and Experimentation Facility Health AI and Robotics (TEF-Health) project ^[ https://www.tefhealth.eu] via Prof. Ritter at the Charité) and the OpenLab MedTec project led by PTB in Berlin. In order for medical devices to be certified for use, they are subject to a large body of advanced regulations. These can inform open hardware quality control and data sharing processes, as we learned during Open.Make by observing the VentMon project ^[ https://www.pubinv.org/project/ventmon/]).
 
 ## Subject of implementation / transfer potential 
 
-Open.Make II aims to achieve the following outputs : 1) An active and dynamic BUA open hardware community; 2) open educational resources on open research hardware for practitioners and for institutional stakeholders; 3) a publication platform demonstrator which delivers first insights from application in relevant environments and a diverse set of disciplines; and 3) community lead position papers and policy examples for adoption, for instance on FAIR principles for research hardware.
+Open.Make II aims to achieve the following outputs : 1) An active and dynamic BUA open hardware community; 2) open educational resources on open research hardware for practitioners and for institutional stakeholders; 3) a publication platform demonstrator which delivers first insights from application in relevant environments and a diverse set of disciplines; and 4) community lead position papers and policy examples for adoption, for instance on FAIR principles for research hardware.
 Community building activities and teaching formats, combined with an internationally recognized infrastructure to document and communicate research hardware, will lay the foundation for and pioneer a centre of competence for open hardware in the BUA. The transfer potential is multi-fold as different industries and engineering disciplines will be inspired to engage in research and technology development activities based on open hardware principles. Moreover, developed and refined OERs for training programs for research hardware developers and makers will be shared to allow replicability of the approach.
 
 Furthermore, we will release our self-hostable publication platform and all associated documentation under open-source licenses. Open source hardware maker communities outside of the traditional academic environment will therefore be able to reuse and improve upon them. We will indeed foster this behaviour as part of our continued outreach activities. A proposal for a national or international implementation project with higher technology readiness level is envisaged towards the end of the Open.Make II project to further develop and exploit the demonstrator.
@@ -109,13 +113,14 @@ Moreover, joint policy initiatives will create transfer potentials in different 
 <!---
 Kurzbeschreibung des Vorhabens unter Zuordnung zu einem in Positioning of the project in relation to the predecessor project, i.e., outline of goals of predecessor project and status of achievement (one page max.)
 --->
+
 ## Hardware publication system requirements
 
-Based on accounts from 15 interviews with representatives of a diverse set of leading open hardware projects from academia all over the world, the Open.Make team gathered user stories and is deriving critical needs for open hardware development and sharing. The project will confront these needs in interactive workshops and focus groups with experts in scholarly communication and infrastructure builders in 2023. The community will design a roadmap for the creation of a hardware publication ecosystem,. The new project will transfer these knowledge into the creation of  a scalable product.
+Based on accounts from 15 interviews with representatives of a diverse set of leading open hardware projects from academia all over the world, the Open.Make team gathered user stories and is deriving critical needs for open hardware development and sharing. The project will confront these needs in interactive workshops and focus groups with experts in scholarly communication and infrastructure builders in 2023. The community will design a roadmap for the creation of a hardware publication ecosystem. The new project will transfer these knowledge into the creation of a scalable product.
 
 ## Open hardware guidelines
 
-Taking advantage of our liaison with an Open Hardware Makers training program via the incoming fellowship of Dr. Julieta Arancio, and with the Turing Way collaborative community, we will develop comprehensive guidelines for the development and sharing of open research hardware  in the coming months.This knowledge will be used to design different training programs inside the BUA, and may guide the development of tools facilitating hardware documentation.
+Taking advantage of our liaison with an Open Hardware Makers training program via the incoming fellowship of Dr. Julieta Arancio, and with the Turing Way collaborative community, we will develop comprehensive guidelines for the development and sharing of open research hardware in the coming months.This knowledge will be used to design different training programs inside the BUA, and guides the development of tools facilitating hardware documentation.
 
 ## International connections
 
@@ -141,7 +146,7 @@ Hardware journals exist, but they do not respond to the need of the community. I
 
 Systems for the quality control and dissemination of open hardware have been emerging during the last years in Germany (OHO - Open Hardware Observatory e.V., Open Source Ecology Germany e.V.), where the DIN SPEC 3105 was also developed to define and attest open hardware. We are closely linked with these different players and plan to adopt or adapt their workflow into our hardware publication ecosystem.
 
-On the other hand, tooling developed for the publication or archival of software are in development (REF:https://doi.org/10.48550/arXiv.2201.09015), and we are for instance taking contact with the HERMES team ^[https://project.software-metadata.pub/], which is developing tools for the archival of software into data publication platforms that are often used in university libraries (Dataverse and InvenioRDM, the latter being the software running Zenodo). Especially, the automatic transfer of specific metadata types is an interesting and pioneering approach for software publication. 
+On the other hand, tooling developed for the publication or archival of software are in development ^[https://doi.org/10.48550/arXiv.2201.09015], and we are for instance taking contact with the HERMES team ^[https://project.software-metadata.pub/], which is developing tools for the archival of software into data publication platforms that are often used in university libraries (Dataverse and InvenioRDM, the latter being the software running Zenodo). Especially, the automatic transfer of specific metadata types is an interesting and pioneering approach for software publication. 
 \newpage
 
 # Work schedule
@@ -154,24 +159,21 @@ The project team anticipates obtaining support from different institutions in th
 
 ## WP1 - Community building [M1 - M24]
 
-We will first [**M1 - M7**] connect with existing communities in Berlin and Brandenburg related to open science (Open Science Working Group of the FU Berlin), to maker spaces (TOP e.V., HappyLab, etc.), and to scholarly communication ( Project HERMES, Open-Access-Büro Berlin). In addition, we will look for hardware maker nodes inside the universities (workshops, engineers, student groups), and of course connect with the BUA community. We will organise a community gathering event as milestone of this task. 
+We will first [**M1 - M7**] connect with existing communities in Berlin and Brandenburg related to open science (Open Science Working Group of the FU Berlin), to maker spaces (TOP e.V., HappyLab, etc.), and to scholarly communication (Project HERMES, Open-Access-Büro Berlin). In addition, we will look for hardware maker nodes inside the universities (workshops / makerspaces, engineers, student groups), and of course connect with the BUA community. We will organise a community gathering event as milestone of this task. 
 
-Then [**M8 - M24**], following the Delft open hardware initiative example, we will provide spaces and mentoring to BUA hardware developers and makers. A research hardware engineer will be in charge not only to help create hardware, but also we will introduce developers and makers to the importance of opening their hardware project. We will introduce them to the guidelines developed during the current Open.Make project, and propose additional training (see WP2). 
+Then [**M8 - M24**], following the Delft open hardware initiative example, we will provide spaces and mentoring to BUA hardware developers and makers. A research hardware engineer will be in charge not only to help create hardware, but also we will introduce developers and makers to the importance of opening their hardware project. We will introduce them to the guidelines developed during the current Open.Make project, and offer additional training (see WP2). 
 
 Concerning the space, we will test different strategies. First [start **M8**], we will have a central workshop. This will allow us to test what the workshop would need and the efficiency of having a central hub. Second [from **M12**], we will organize a pop-up or mobile workshop, which will be installed in different locations in Berlin. We expect this second approach to raise awareness by being more local and time constrained. Finally [start **M18**], we will provide advice on site,  going into existing workshop in the different institutions. The end of these tests will depend on the feasibility and success of the approaches, it is not excluded that we will in the end provide all three types of spaces.
 Finally in **M24**, we will organise a mini-conference to present our results and discuss recommendation for the creation of a sustainable centre of competence for open hardware  in Berlin.
 
-**Milestone (MS) 1** - Ramp up / **Means of verification (MoV)** - Connections established including as part of a community gathering event with the main target groups and detailed planning formalised to engage the research developer and hardware community [M6]
 
 ## WP2 – Education and training [M7 – M30]
 
-The first component of WP2 involves aligning and testing already existing training materials and OERs with the needs of the emerging community. To that end, we will run a community session inviting different status groups  to first identify training needs and expectations. We will then combine this feedback with practical experiences made during open.Make and co-design the learning outcomes of training initiatives. 
+The first component of WP2 involves aligning and testing already existing training formats, materials and OERs with the needs of the emerging community. To that end, we will run community sessions inviting different status groups and developers and makers of research hardware from the four Berlin universities to first identify training needs and expectations. We will then combine this feedback with practical experiences made during Open.Make and co-design the learning outcomes of training initiatives. 
 
-We aim to train two different but complementary audiences: hardware makers and university officers. In order to educate  early career researchers, students and civil scientists interested in open source hardware (as part of their research activities), the team will continuously develop both the university training course over two semesters (summer semesters 2024 & 2025) and some short training formats best fitted for practitioners and makers. In addition, developed resources will be published as OERs that can be taken up by anyone interested and modified for other target groups.
+We aim to train two different but complementary audiences: research hardware developers and makers as well as university officers. In order to offer training to early career researchers, students and PIs interested in open source hardware (as part of their research activities), the team will continuously develop both the university training course over two semesters (summer semesters 2024 & 2025) and some short training formats best fitted for practitioners and makers. In addition, developed resources will be published as OERs that can be taken up by anyone interested and modified for other target groups.
 
-On the other hand, we will target university officers working on the social impact of academic production and technology transfer. To this end, we will run interactive awareness sessions to connect open hardware practitioners and university administration officers. We will join force with existing institutions like the Open Hardware Alliance Germany . These sessions will provide  concrete information on how to support and recognize open hardware in research team projects , and how to capture the impact produced by publishing high quality FAIR and open hardware. the process.
-
-**MS2** - Needs analysis / **MoV** - Needs for education and trainings assessed and analysed [M9]
+In the last phase of the projects, we will target university officers facilitating the socioeconomic impact of academic production and technology transfer. To this end, we will run an awareness building campaign that connects open hardware practitioners and university administration officers in interactive formats. For this, we will join forces with existing institutions like the Open Hardware Alliance Germany where TUB has been a member since its formation. These sessions will provide concrete information on how to support and foster the recognition of open hardware by individual researchers or joint research projects and how to measure the impact produced by publishing high quality FAIR and open hardware.
 
 ## WP3 ICT infrastructure development [M1 – M15]
 
@@ -185,7 +187,7 @@ We will expand the GitBuilding tool, which enables automatic generation of HTML 
 
 #### Manual checks and peer review (M5 - M10)
 
-For the quality control process, we will reuse and integrate the workflow of the MediaWiki-based tool developed by OHO and the CADCloud prototype,  which allows for online viewing of CAD files.  The scalability of this approach will be monitored and other types of peer review systems may be built, tested and implemented.
+For the quality control process, we will reuse and integrate the workflow of the MediaWiki-based tool developed by OHO and the CADCloud prototype, which allows for online viewing of CAD files. The scalability of this approach will be monitored and other types of peer review systems may be built, tested and implemented.
 
 #### Archival and Recognition (M6 - M10)
 
@@ -193,9 +195,7 @@ We will  reuse and adapt workflows developed for software archival by the HERMES
 
 #### Bundling (M6 - 15)
 
-The different components will work together in a modularised fashion and can be self-hosted. There will be a web-based control interfacer that facilitates the interoperation of the individual components. Users will be able to register their git repositories with it to make use of its services. By using only open-source software, we will enable research engineers and libraries to set up their own instances  The use of metadata standards will allow for the discoverability of hardware independently of their place of publication.
-
-**MS3** – Technology validation / **MoV** – Working prototype ready for testing in the lab [M12]
+The different components will work together in a modularised fashion and can be self-hosted. There will be a web-based control interfacer that facilitates the interoperation of the individual components. Users will be able to register their git repositories with it to make use of its services. By only using open source software, we will enable research engineers and libraries to set up their own instances. The use of metadata standards will allow for the discoverability of hardware independently of their place of publication.
 
 ## WP4 Networking (M1 - M30)
 
@@ -205,7 +205,12 @@ We will continue our efforts inside the RDA group that Dr. Colomb is presently c
 
 We will also build new connections with related projects in Berlin. In particular, we have direct contact to the newly created Center for the Science of Materials at the HU, as Prof. Larkum is a member of the centre. Also, we will connect with medical device development project. There are already highly detailed guidelines for the development of medical devices, which can potentially inspire our quality control for research hardware system. Also, we will connect to initiatives building open source hardware in the medical domain. A direct connection to the TEF-Health project will be established via Prof. Ritter (Charité) and with the OpenLab MedTec project from the PTB in Berlin.
 
-**MS4** - Closing out of RDA initiative / **MoV** - Submission of RDA declaration for final review [M24]
+## Milestone plan
+
+**Milestone (MS) 1** – Establishing of network / **Means of verification (MoV)**: Relevant connections made in Berlin area including as part of a community gathering event with the main target groups and internal planning for continuous engagement formalised / **due date**: M6 / **Related WP**: WP1
+**MS2** - Analysis of learning needs / **MoV**: Needs and expectations for education and trainings assessed and analysed / **due date**: M9 / **Related WP**: WP2
+**MS3** – Technology validation / **MoV**: First working prototype of technology infrastructure ready for testing in the lab / **due date**: M12 / **Related WP**: WP3
+**MS4** - Closing out of RDA initiative / **MoV** - Submission of RDA declaration for final review / **due date**: M24 / **Related WP**: WP4
 
 ## Risk assessment
 
@@ -254,13 +259,13 @@ During Open.Make II, we will collaborate with institute workshops (for instance 
 * Concept for collaboration with project partners, e.g., description of work or task allocation, infor- mation on reciprocal added value (one page max.)
 --->
 
-The project team remains identical to the team that made Open.Make (I) a success. It pools expertise in hardware evaluation at the TUB, academic hardware & software development at the FUB, and scholarly communication and data management at the HUB. While Dr. Julien Colomb will continue to work part-time on this project (about 15%) inside his contract in the infrastructure project of the SFB1315, both Robert Mies and Moritz Maxeiner will be dedicating their full-time attention on open Make II. The project therefore involves officially three institutions of the BUA. Also, we will have special connection with Charité via Prof. Petra Ritter, who is the lead PI on the SFB1315-INF project and support the involvement of Dr. Colomb in Open Make II. She is also the Project Coordinator of the TEF-Health project and is interested to investigate the putative relation between medical devices and open hardware. Due to the short deadline, she could not  join the project as a PI, but will write a letter of support/intent.  
+The project team remains identical to the team that made Open.Make (I) a success. It pools expertise in hardware evaluation at TUB, academic hardware & software development at FUB, scholarly communication and data management at HUB, and @Tim: please add details at CUB. While Dr. Julien Colomb will continue to work part-time on this project (about 15%) inside his contract in the infrastructure project of the SFB1315, both Robert Mies and Moritz Maxeiner will be dedicating their full-time attention on open Make II. The project therefore involves officially three institutions of the BUA. Also, we will have special connection with Charité via Prof. Petra Ritter, who is the lead PI on the SFB1315-INF project and support the involvement of Dr. Colomb in Open Make II. She is also the Project Coordinator of the TEF-Health project and is interested to investigate the putative relation between medical devices and open hardware.
 
 The team remains committed because it is necessary to achieve the objectives we have set for ourselves. In particular, the work planned for WP1 and WP2 will require high levels of collaboration to ensure the contents of the workshops and training programs are well-rounded. With regards to individual responsibilities, similar with Open.Make (I) the TUB will take the lead in project coordination while the HUB will head data management tasks and international networking. The FUB and TUB will have shared responsibilities for cooperation with OH communities with the TUB focusing on national groups. As mentioned previously, the FUB will furthermore lead the task of software development (WP3), on top of their role as research hardware engineer (WP1).
 
 Robert Mies (TUB), Dr. Julien Colomb (HUB), and Moritz Maxeiner (FUB) will work as a team during the whole grant period. The current work organisation and data sharing habits will be kept. The TUB HiDrive will be used for internal data exchange, while public data will be pushed on GitHub. All partners will share relevant files in the consortium and prepare their documentation to be released and published. Where legally possible, we will work in the open, so that putative partners can follow in progress in real time, see www.openmake.de. 
 
-This will explicitly be the case for the publication system software, which will be open source and developed in a public git repository. For this, we will use the GitLab development and operations platform, unless we expand a project that is hosted elsewere . The platform has been used successfully and heavily by the FUB lab for software project management, development, and continuous integration. We believe this open approach will foster adoption of the system. Bi-weekly meetings between the three Mies, Dr. Colomb, and Maxeiner have proven invaluable in monitoring the progress of the current project and we will thus keep with that process. We will also continue organising a whole team meeting at least once every six months, with the agenda being prepared by the TUB.
+This will explicitly be the case for the publication system software, which will be open source and developed in a public git repository. For this, we will use the GitLab development and operations platform, unless we expand a project that is hosted elsewhere. The platform has been used successfully and heavily by the FUB lab for software project management, development, and continuous integration. We believe this open approach will foster adoption of the system. Bi-weekly meetings between the three Mies, Dr. Colomb, and Maxeiner have proven invaluable in monitoring the progress of the current project and we will thus keep with that process. We will also continue organising a whole team meeting at least once every six months, with the agenda being prepared by the TUB.
 
 We will continue to actively recruit additional collaborators, especially within the new framework of the RDA group FAIR4RH that we co-founded as part of Open.Make (I). It is currently co-chaired by Dr. Nadica Miljković (University of Belgrade) and Dr. Julien Colomb and has grown to 45 members. We will also contact and involve university libraries in discussions on infrastructure needs for the publication system. We also plan to apply for a new BUA fellowship, as it proved very useful for our work in the current project.
 
@@ -276,16 +281,16 @@ Annex and financial plan do not count in the 12 pages limit.
 \newpage
 
 # Financial plan
-Total estimated costs: 455 000 EUR (Personnel costs: 405 000 EUR, equipment 50 000 EUR)
+Total estimated costs: 465 019 EUR (Personnel costs: 413 019 EUR, other costs 52 000 EUR)
 
 The plan exceed slightly the maximum amount allowed. As the reviewer of the first round agreed, the objectives of the project are very ambitious and we cover three different partner institutions, with special connection to a fourth institution.
-
 
 ## Personal costs
 
 - TUB:  One postdoc 24 month 100% + 6 months 50%: 235 662 EUR (103 015 EUR + 105 590 EUR + 108 230 EUR * 0.5)
 - FUB: 24 person months for one doctoral researcher (FU): 151 831  EUR (74 978 EUR + 76 853 EUR)
-- HUB: One student assistant HU (40 h per month * 30 months): 17 500 EUR
+- HUB: One student assistant (40 h per month * 30 months): 17 500 EUR
+- CB: One student assistant (40 h per month * 12 months): 8 019 EUR (7 920 EUR * 0.5 + 8 118 EUR * 0.5)
 
 Note: The HUB, via the SFB1315, provides a senior post doc 15% as existing staff for the 30 months.
 
@@ -294,6 +299,7 @@ Note: The HUB, via the SFB1315, provides a senior post doc 15% as existing staff
 -  TUB: 5 000 EUR
 -  FUB: 5 000 EUR
 -  HUB: 5 000 EUR
+-  CB: 2 000 EUR
 
 ## Workshop tools and consumables (WP1)
 
